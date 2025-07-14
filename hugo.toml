@@ -30,3 +30,8 @@ theme = "sikh-wellness-theme" # We will create this theme later
   taxonomyTerm = ["HTML", "RSS"]
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
+
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
