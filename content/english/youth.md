@@ -21,6 +21,22 @@ shabads:
     translation: "The rulers of the entire world are unhappy; one who chants the Lord's Name becomes happy."
     relevanceEn: "This addresses the pressure of worldly achievement. It reminds young people that true happiness (sukh) comes not from external success but from inner contentment found through Naam Japna."
     relevancePu: "ਇਹ ਸੰਸਾਰਕ ਪ੍ਰਾਪਤੀ ਦੇ ਦਬਾਅ ਨੂੰ ਸੰਬੋਧਿਤ ਕਰਦਾ ਹੈ। ਇਹ ਨੌਜਵਾਨਾਂ ਨੂੰ ਯਾਦ ਦਿਵਾਉਂਦਾ ਹੈ ਕਿ ਸੱਚੀ ਖੁਸ਼ੀ (ਸੁਖ) ਬਾਹਰੀ ਸਫਲਤਾ ਤੋਂ ਨਹੀਂ ਬਲਕਿ ਨਾਮ ਜਪਣਾ ਦੁਆਰਾ ਲੱਭੀ ਅੰਦਰੂਨੀ ਸੰਤੁਸ਼ਟੀ ਤੋਂ ਆਉਂਦੀ ਹੈ।"
+sikhTeachingsEn: "Sikhi offers a unique perspective for youth navigating mental health challenges. The concept of 'Chardi Kala' (eternal optimism) teaches resilience and the ability to maintain high spirits even in adversity. 'Nitnem' (daily prayers) provides a structured routine that can bring stability and peace of mind. The 'Khalsa identity' and the '5 Ks' offer a strong sense of self, belonging, and discipline, which are crucial for positive youth development and mental well-being."
+sikhTeachingsPu: "ਸਿੱਖੀ ਨੌਜਵਾਨਾਂ ਲਈ ਮਾਨਸਿਕ ਸਿਹਤ ਚੁਣੌਤੀਆਂ ਨੂੰ ਨੈਵੀਗੇਟ ਕਰਨ ਲਈ ਇੱਕ ਵਿਲੱਖਣ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਪ੍ਰਦਾਨ ਕਰਦੀ ਹੈ। 'ਚੜ੍ਹਦੀ ਕਲਾ' (ਸਦੀਵੀ ਆਸ਼ਾਵਾਦ) ਦਾ ਸੰਕਲਪ ਲਚਕਤਾ ਅਤੇ ਮੁਸੀਬਤ ਵਿੱਚ ਵੀ ਉੱਚੇ ਹੌਸਲੇ ਬਣਾਈ ਰੱਖਣ ਦੀ ਯੋਗਤਾ ਸਿਖਾਉਂਦਾ ਹੈ। 'ਨਿਤਨੇਮ' (ਰੋਜ਼ਾਨਾ ਅਰਦਾਸਾਂ) ਇੱਕ ਢਾਂਚਾਗਤ ਰੁਟੀਨ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ ਜੋ ਸਥਿਰਤਾ ਅਤੇ ਮਨ ਦੀ ਸ਼ਾਂਤੀ ਲਿਆ ਸਕਦਾ ਹੈ। 'ਖਾਲਸਾ ਪਛਾਣ' ਅਤੇ '5 ਕਕਾਰ' ਸਵੈ, ਸਬੰਧ, ਅਤੇ ਅਨੁਸ਼ਾਸਨ ਦੀ ਇੱਕ ਮਜ਼ਬੂਤ ​​ਭਾਵਨਾ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਨ, ਜੋ ਸਕਾਰਾਤਮਕ ਯੁਵਾ ਵਿਕਾਸ ਅਤੇ ਮਾਨਸਿਕ ਤੰਦਰੁਸਤੀ ਲਈ ਮਹੱਤਵਪੂਰਨ ਹਨ।"
+communityCulturalEn: "Sikh youth often face unique pressures related to cultural expectations, identity, and balancing traditional values with modern influences. The Sangat (holy congregation) can serve as a vital support network, offering mentorship, positive peer relationships, and a sense of belonging. Open communication within families and Gurdwaras is essential to address these challenges and create a supportive environment where youth feel comfortable discussing mental health issues without fear of judgment or stigma."
+communityCulturalPu: "ਸਿੱਖ ਨੌਜਵਾਨ ਅਕਸਰ ਸੱਭਿਆਚਾਰਕ ਉਮੀਦਾਂ, ਪਛਾਣ, ਅਤੇ ਆਧੁਨਿਕ ਪ੍ਰਭਾਵਾਂ ਨਾਲ ਰਵਾਇਤੀ ਕਦਰਾਂ-ਕੀਮਤਾਂ ਨੂੰ ਸੰਤੁਲਿਤ ਕਰਨ ਨਾਲ ਸਬੰਧਤ ਵਿਲੱਖਣ ਦਬਾਅ ਦਾ ਸਾਹਮਣਾ ਕਰਦੇ ਹਨ। ਸੰਗਤ (ਪਵਿੱਤਰ ਸੰਗਤ) ਇੱਕ ਮਹੱਤਵਪੂਰਨ ਸਹਾਇਤਾ ਨੈਟਵਰਕ ਵਜੋਂ ਕੰਮ ਕਰ ਸਕਦੀ ਹੈ, ਜੋ ਸਲਾਹ, ਸਕਾਰਾਤਮਕ ਸਾਥੀ ਸਬੰਧ, ਅਤੇ ਸਬੰਧ ਦੀ ਭਾਵਨਾ ਪ੍ਰਦਾਨ ਕਰਦੀ ਹੈ। ਪਰਿਵਾਰਾਂ ਅਤੇ ਗੁਰਦੁਆਰਿਆਂ ਦੇ ਅੰਦਰ ਖੁੱਲ੍ਹਾ ਸੰਚਾਰ ਇਹਨਾਂ ਚੁਣੌਤੀਆਂ ਨੂੰ ਹੱਲ ਕਰਨ ਅਤੇ ਇੱਕ ਸਹਾਇਕ ਵਾਤਾਵਰਣ ਬਣਾਉਣ ਲਈ ਜ਼ਰੂਰੀ ਹੈ ਜਿੱਥੇ ਨੌਜਵਾਨ ਨਿਰਣੇ ਜਾਂ ਕਲੰਕ ਦੇ ਡਰ ਤੋਂ ਬਿਨਾਂ ਮਾਨਸਿਕ ਸਿਹਤ ਦੇ ਮੁੱਦਿਆਂ ਬਾਰੇ ਚਰਚਾ ਕਰਨ ਵਿੱਚ ਅਰਾਮ ਮਹਿਸੂਸ ਕਰਦੇ ਹਨ।"
+practicalSikhPracticesEn:
+  - "Nitnem: Engaging in daily prayers and meditation to establish a routine and mental discipline."
+  - "Sangat: Participate in Sikh youth camps or local gurdwara groups to build positive peer relationships and a strong support network."
+  - "Seva: Engage in selfless service to develop a sense of purpose and contribute positively to the community."
+  - "Gurbani Recitation/Listening: Find solace and guidance in the sacred verses, which offer wisdom for navigating life's challenges."
+  - "Practicing Chardi Kala: Cultivating an optimistic and resilient mindset, facing challenges with courage and faith."
+practicalSikhPracticesPu:
+  - "ਨਿਤਨੇਮ: ਰੋਜ਼ਾਨਾ ਅਰਦਾਸਾਂ ਅਤੇ ਧਿਆਨ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਣਾ ਤਾਂ ਜੋ ਇੱਕ ਰੁਟੀਨ ਅਤੇ ਮਾਨਸਿਕ ਅਨੁਸ਼ਾਸਨ ਸਥਾਪਤ ਕੀਤਾ ਜਾ ਸਕੇ।"
+  - "ਸੰਗਤ: ਸਕਾਰਾਤਮਕ ਸਾਥੀ ਸਬੰਧ ਅਤੇ ਇੱਕ ਮਜ਼ਬੂਤ ​​ਸਹਾਇਤਾ ਨੈਟਵਰਕ ਬਣਾਉਣ ਲਈ ਸਿੱਖ ਯੁਵਾ ਕੈਂਪਾਂ ਜਾਂ ਸਥਾਨਕ ਗੁਰਦੁਆਰਾ ਸਮੂਹਾਂ ਵਿੱਚ ਹਿੱਸਾ ਲਓ।"
+  - "ਸੇਵਾ: ਉਦੇਸ਼ ਦੀ ਭਾਵਨਾ ਵਿਕਸਿਤ ਕਰਨ ਅਤੇ ਭਾਈਚਾਰੇ ਵਿੱਚ ਸਕਾਰਾਤਮਕ ਯੋਗਦਾਨ ਪਾਉਣ ਲਈ ਨਿਰਸਵਾਰਥ ਸੇਵਾ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ।"
+  - "ਗੁਰਬਾਣੀ ਪਾਠ/ਸੁਣਨਾ: ਪਵਿੱਤਰ ਸ਼ਬਦਾਂ ਵਿੱਚ ਸ਼ਾਂਤੀ ਅਤੇ ਮਾਰਗਦਰਸ਼ਨ ਲੱਭੋ, ਜੋ ਜੀਵਨ ਦੀਆਂ ਚੁਣੌਤੀਆਂ ਨੂੰ ਨੈਵੀਗੇਟ ਕਰਨ ਲਈ ਸਿਆਣਪ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਨ।"
+  - "ਚੜ੍ਹਦੀ ਕਲਾ ਦਾ ਅਭਿਆਸ ਕਰਨਾ: ਇੱਕ ਆਸ਼ਾਵਾਦੀ ਅਤੇ ਲਚਕੀਲਾ ਮਾਨਸਿਕਤਾ ਪੈਦਾ ਕਰਨਾ, ਹਿੰਮਤ ਅਤੇ ਵਿਸ਼ਵਾਸ ਨਾਲ ਚੁਣੌਤੀਆਂ ਦਾ ਸਾਹਮਣਾ ਕਰਨਾ।"
 practicalSupportEn:
   - "Find a Mentor: Connect with an older, trusted Sikh who can offer guidance."
   - "Digital Detox: Schedule time away from social media to reduce comparison and anxiety."

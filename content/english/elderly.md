@@ -21,6 +21,22 @@ shabads:
     translation: "You yourself sow, and you yourself eat. O Nanak, by the Hukam, you come and go."
     relevanceEn: "This shabad encourages reflection on one's life journey and actions, promoting a sense of peace and acceptance of divine will in the later stages of life."
     relevancePu: "ਇਹ ਸ਼ਬਦ ਕਿਸੇ ਦੇ ਜੀਵਨ ਦੀ ਯਾਤਰਾ ਅਤੇ ਕਾਰਵਾਈਆਂ 'ਤੇ ਪ੍ਰਤੀਬਿੰਬਤ ਕਰਨ ਲਈ ਉਤਸ਼ਾਹਿਤ ਕਰਦਾ ਹੈ, ਜੀਵਨ ਦੇ ਬਾਅਦ ਦੇ ਪੜਾਵਾਂ ਵਿੱਚ ਬ੍ਰਹਮ ਇੱਛਾ ਦੀ ਸ਼ਾਂਤੀ ਅਤੇ ਸਵੀਕ੍ਰਿਤੀ ਦੀ ਭਾਵਨਾ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਦਾ ਹੈ।"
+sikhTeachingsEn: "Sikhi offers profound wisdom for elders to maintain mental well-being. The emphasis on 'Santokh' (contentment) and detachment from worldly desires can bring peace and acceptance in later life. The concept of 'Hukam' (Divine Will) encourages elders to embrace the natural progression of life with faith and grace. Gurbani provides solace and a spiritual anchor, helping them navigate challenges associated with aging."
+sikhTeachingsPu: "ਸਿੱਖੀ ਬਜ਼ੁਰਗਾਂ ਨੂੰ ਮਾਨਸਿਕ ਤੰਦਰੁਸਤੀ ਬਣਾਈ ਰੱਖਣ ਲਈ ਡੂੰਘੀ ਸਿਆਣਪ ਪ੍ਰਦਾਨ ਕਰਦੀ ਹੈ। 'ਸੰਤੋਖ' (ਸੰਤੁਸ਼ਟੀ) ਅਤੇ ਸੰਸਾਰਕ ਇੱਛਾਵਾਂ ਤੋਂ ਨਿਰਲੇਪਤਾ 'ਤੇ ਜ਼ੋਰ ਬਾਅਦ ਦੇ ਜੀਵਨ ਵਿੱਚ ਸ਼ਾਂਤੀ ਅਤੇ ਸਵੀਕ੍ਰਿਤੀ ਲਿਆ ਸਕਦਾ ਹੈ। 'ਹੁਕਮ' (ਰੱਬੀ ਇੱਛਾ) ਦਾ ਸੰਕਲਪ ਬਜ਼ੁਰਗਾਂ ਨੂੰ ਵਿਸ਼ਵਾਸ ਅਤੇ ਕਿਰਪਾ ਨਾਲ ਜੀਵਨ ਦੀ ਕੁਦਰਤੀ ਪ੍ਰਗਤੀ ਨੂੰ ਅਪਣਾਉਣ ਲਈ ਉਤਸ਼ਾਹਿਤ ਕਰਦਾ ਹੈ। ਗੁਰਬਾਣੀ ਸ਼ਾਂਤੀ ਅਤੇ ਇੱਕ ਅਧਿਆਤਮਿਕ ਲੰਗਰ ਪ੍ਰਦਾਨ ਕਰਦੀ ਹੈ, ਜੋ ਉਨ੍ਹਾਂ ਨੂੰ ਬੁਢਾਪੇ ਨਾਲ ਜੁੜੀਆਂ ਚੁਣੌਤੀਆਂ ਦਾ ਸਾਹਮਣਾ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦੀ ਹੈ।"
+communityCulturalEn: "Within the Sikh community, elders are highly respected and revered. However, they can sometimes face challenges like loneliness, isolation, and a sense of loss of purpose, especially if they are immigrants adapting to a new culture. The Sangat (holy congregation) plays a crucial role in providing a supportive network, fostering intergenerational connections, and ensuring elders remain engaged and valued. Encouraging open dialogue about mental health within families and Gurdwaras can help address these issues and promote their overall well-being."
+communityCulturalPu: "ਸਿੱਖ ਭਾਈਚਾਰੇ ਦੇ ਅੰਦਰ, ਬਜ਼ੁਰਗਾਂ ਦਾ ਬਹੁਤ ਸਤਿਕਾਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਹਾਲਾਂਕਿ, ਉਨ੍ਹਾਂ ਨੂੰ ਕਈ ਵਾਰ ਇਕੱਲਤਾ, ਅਲੱਗ-ਥਲੱਗਤਾ, ਅਤੇ ਉਦੇਸ਼ ਦੀ ਭਾਵਨਾ ਦੇ ਨੁਕਸਾਨ ਵਰਗੀਆਂ ਚੁਣੌਤੀਆਂ ਦਾ ਸਾਹਮਣਾ ਕਰਨਾ ਪੈ ਸਕਦਾ ਹੈ, ਖਾਸ ਕਰਕੇ ਜੇ ਉਹ ਇੱਕ ਨਵੀਂ ਸੰਸਕ੍ਰਿਤੀ ਦੇ ਅਨੁਕੂਲ ਹੋਣ ਵਾਲੇ ਪ੍ਰਵਾਸੀ ਹਨ। ਸੰਗਤ (ਪਵਿੱਤਰ ਸੰਗਤ) ਇੱਕ ਸਹਾਇਕ ਨੈਟਵਰਕ ਪ੍ਰਦਾਨ ਕਰਨ, ਅੰਤਰ-ਪੀੜ੍ਹੀ ਸਬੰਧਾਂ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਨ, ਅਤੇ ਬਜ਼ੁਰਗਾਂ ਨੂੰ ਸ਼ਾਮਲ ਅਤੇ ਮਹੱਤਵਪੂਰਨ ਰੱਖਣ ਵਿੱਚ ਇੱਕ ਮਹੱਤਵਪੂਰਨ ਭੂਮਿਕਾ ਨਿਭਾਉਂਦੀ ਹੈ। ਪਰਿਵਾਰਾਂ ਅਤੇ ਗੁਰਦੁਆਰਿਆਂ ਦੇ ਅੰਦਰ ਮਾਨਸਿਕ ਸਿਹਤ ਬਾਰੇ ਖੁੱਲ੍ਹੇ ਸੰਵਾਦ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਨਾ ਇਹਨਾਂ ਮੁੱਦਿਆਂ ਨੂੰ ਹੱਲ ਕਰਨ ਅਤੇ ਉਨ੍ਹਾਂ ਦੀ ਸਮੁੱਚੀ ਭਲਾਈ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ।"
+practicalSikhPracticesEn:
+  - "Naam Simran: Daily meditation on the Divine Name to find inner peace and acceptance of life's journey."
+  - "Sangat: Actively participate in the holy congregation for social connection, spiritual discourse, and support."
+  - "Seva: Engage in selfless service, even in small ways, to maintain a sense of purpose and contribution."
+  - "Gurbani Recitation/Listening: Find solace and wisdom in the sacred verses, which offer guidance for all stages of life."
+  - "Practicing Santokh: Cultivating contentment and gratitude for what one has, reducing anxiety about the future."
+practicalSikhPracticesPu:
+  - "ਨਾਮ ਸਿਮਰਨ: ਜੀਵਨ ਦੀ ਯਾਤਰਾ ਦੀ ਅੰਦਰੂਨੀ ਸ਼ਾਂਤੀ ਅਤੇ ਸਵੀਕ੍ਰਿਤੀ ਲੱਭਣ ਲਈ ਰੱਬੀ ਨਾਮ ਦਾ ਰੋਜ਼ਾਨਾ ਸਿਮਰਨ।"
+  - "ਸੰਗਤ: ਸਮਾਜਿਕ ਸਬੰਧ, ਅਧਿਆਤਮਿਕ ਵਿਚਾਰ-ਵਟਾਂਦਰੇ, ਅਤੇ ਸਹਾਇਤਾ ਲਈ ਪਵਿੱਤਰ ਸੰਗਤ ਵਿੱਚ ਸਰਗਰਮੀ ਨਾਲ ਹਿੱਸਾ ਲਓ।"
+  - "ਸੇਵਾ: ਉਦੇਸ਼ ਅਤੇ ਯੋਗਦਾਨ ਦੀ ਭਾਵਨਾ ਬਣਾਈ ਰੱਖਣ ਲਈ ਨਿਰਸਵਾਰਥ ਸੇਵਾ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ, ਭਾਵੇਂ ਛੋਟੇ ਤਰੀਕਿਆਂ ਨਾਲ।"
+  - "ਗੁਰਬਾਣੀ ਪਾਠ/ਸੁਣਨਾ: ਪਵਿੱਤਰ ਸ਼ਬਦਾਂ ਵਿੱਚ ਸ਼ਾਂਤੀ ਅਤੇ ਸਿਆਣਪ ਲੱਭੋ, ਜੋ ਜੀਵਨ ਦੇ ਸਾਰੇ ਪੜਾਵਾਂ ਲਈ ਮਾਰਗਦਰਸ਼ਨ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਨ।"
+  - "ਸੰਤੋਖ ਦਾ ਅਭਿਆਸ ਕਰਨਾ: ਜੋ ਕੁਝ ਹੈ ਉਸ ਲਈ ਸੰਤੁਸ਼ਟੀ ਅਤੇ ਸ਼ੁਕਰਗੁਜ਼ਾਰੀ ਪੈਦਾ ਕਰਨਾ, ਭਵਿੱਖ ਬਾਰੇ ਚਿੰਤਾ ਘਟਾਉਣਾ।"
 practicalSupportEn:
   - "Encourage social engagement and participation in community activities."
   - "Ensure regular physical activity tailored to their abilities."

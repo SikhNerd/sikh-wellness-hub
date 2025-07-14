@@ -26,6 +26,18 @@
                 href="http://example.org/pa/tags/"
                 />
   </url><url>
+    <loc>http://example.org/pa/youth/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/youth/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pa"
+                href="http://example.org/pa/youth/"
+                />
+  </url><url>
     <loc>http://example.org/pa/depression/</loc>
     <xhtml:link
                 rel="alternate"
@@ -120,18 +132,6 @@
                 rel="alternate"
                 hreflang="pa"
                 href="http://example.org/pa/addiction/"
-                />
-  </url><url>
-    <loc>http://example.org/pa/youth/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://example.org/youth/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pa"
-                href="http://example.org/pa/youth/"
                 />
   </url><url>
     <loc>http://example.org/pa/elderly/</loc>

@@ -8,6 +8,13 @@
     <language>pa</language>
     <atom:link href="http://example.org/pa/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Youth Mental Health</title>
+      <link>http://example.org/pa/youth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/pa/youth/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>ਉਦਾਸੀ</title>
       <link>http://example.org/pa/depression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -61,13 +68,6 @@
       <link>http://example.org/pa/addiction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/pa/addiction/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ਨੌਜਵਾਨਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</title>
-      <link>http://example.org/pa/youth/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/pa/youth/</guid>
       <description></description>
     </item>
     <item>

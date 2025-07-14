@@ -21,6 +21,22 @@ shabads:
     translation: "Suffering is the medicine, and pleasure the disease; when there is pleasure, there is no medicine."
     relevanceEn: "This shabad encourages a perspective where suffering can be a catalyst for spiritual growth, helping individuals to reframe their traumatic experiences and find meaning in them."
     relevancePu: "ਇਹ ਸ਼ਬਦ ਇੱਕ ਅਜਿਹੇ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਦਾ ਹੈ ਜਿੱਥੇ ਦੁੱਖ ਅਧਿਆਤਮਿਕ ਵਿਕਾਸ ਲਈ ਇੱਕ ਉਤਪ੍ਰੇਰਕ ਹੋ ਸਕਦਾ ਹੈ, ਵਿਅਕਤੀਆਂ ਨੂੰ ਉਨ੍ਹਾਂ ਦੇ ਸਦਮੇ ਵਾਲੇ ਅਨੁਭਵਾਂ ਨੂੰ ਮੁੜ ਸੁਰਜੀਤ ਕਰਨ ਅਤੇ ਉਨ੍ਹਾਂ ਵਿੱਚ ਅਰਥ ਲੱਭਣ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ।"
+sikhTeachingsEn: "Sikhi provides a powerful framework for healing from trauma. The concept of 'Hukam' (Divine Will) helps in accepting difficult experiences and finding peace in surrender. 'Naam Simran' (meditation on the Divine Name) can be a source of immense strength and solace, helping to process emotions and find inner calm. The principle of 'Chardi Kala' (eternal optimism) encourages resilience and the ability to rise above adversity with faith."
+sikhTeachingsPu: "ਸਿੱਖੀ ਸਦਮੇ ਤੋਂ ਠੀਕ ਹੋਣ ਲਈ ਇੱਕ ਸ਼ਕਤੀਸ਼ਾਲੀ ਢਾਂਚਾ ਪ੍ਰਦਾਨ ਕਰਦੀ ਹੈ। 'ਹੁਕਮ' (ਰੱਬੀ ਇੱਛਾ) ਦਾ ਸੰਕਲਪ ਮੁਸ਼ਕਲ ਅਨੁਭਵਾਂ ਨੂੰ ਸਵੀਕਾਰ ਕਰਨ ਅਤੇ ਸਮਰਪਣ ਵਿੱਚ ਸ਼ਾਂਤੀ ਲੱਭਣ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ। 'ਨਾਮ ਸਿਮਰਨ' (ਰੱਬੀ ਨਾਮ ਦਾ ਸਿਮਰਨ) ਅਥਾਹ ਤਾਕਤ ਅਤੇ ਸ਼ਾਂਤੀ ਦਾ ਸਰੋਤ ਹੋ ਸਕਦਾ ਹੈ, ਭਾਵਨਾਵਾਂ ਨੂੰ ਪ੍ਰੋਸੈਸ ਕਰਨ ਅਤੇ ਅੰਦਰੂਨੀ ਸ਼ਾਂਤੀ ਲੱਭਣ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ। 'ਚੜ੍ਹਦੀ ਕਲਾ' (ਸਦੀਵੀ ਆਸ਼ਾਵਾਦ) ਦਾ ਸਿਧਾਂਤ ਲਚਕਤਾ ਅਤੇ ਵਿਸ਼ਵਾਸ ਨਾਲ ਮੁਸੀਬਤ ਤੋਂ ਉੱਪਰ ਉੱਠਣ ਦੀ ਯੋਗਤਾ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਦਾ ਹੈ।"
+communityCulturalEn: "The Sikh community, or Sangat, can be a crucial source of support for individuals experiencing trauma. Sharing experiences in a safe and compassionate environment can facilitate healing. However, cultural norms around discussing sensitive topics might sometimes hinder open communication. Fostering a trauma-informed approach within the Sangat, where empathy and understanding are prioritized, can create a more supportive space for healing and recovery."
+communityCulturalPu: "ਸਿੱਖ ਭਾਈਚਾਰਾ, ਜਾਂ ਸੰਗਤ, ਸਦਮੇ ਦਾ ਅਨੁਭਵ ਕਰਨ ਵਾਲੇ ਵਿਅਕਤੀਆਂ ਲਈ ਸਹਾਇਤਾ ਦਾ ਇੱਕ ਮਹੱਤਵਪੂਰਨ ਸਰੋਤ ਹੋ ਸਕਦਾ ਹੈ। ਇੱਕ ਸੁਰੱਖਿਅਤ ਅਤੇ ਦਇਆਵਾਨ ਵਾਤਾਵਰਣ ਵਿੱਚ ਅਨੁਭਵਾਂ ਨੂੰ ਸਾਂਝਾ ਕਰਨਾ ਇਲਾਜ ਨੂੰ ਸੁਵਿਧਾਜਨਕ ਬਣਾ ਸਕਦਾ ਹੈ। ਹਾਲਾਂਕਿ, ਸੰਵੇਦਨਸ਼ੀਲ ਵਿਸ਼ਿਆਂ ਬਾਰੇ ਚਰਚਾ ਕਰਨ ਦੇ ਸੱਭਿਆਚਾਰਕ ਨਿਯਮ ਕਈ ਵਾਰ ਖੁੱਲ੍ਹੇ ਸੰਚਾਰ ਵਿੱਚ ਰੁਕਾਵਟ ਪਾ ਸਕਦੇ ਹਨ। ਸੰਗਤ ਦੇ ਅੰਦਰ ਇੱਕ ਸਦਮਾ-ਜਾਣਕਾਰੀ ਪਹੁੰਚ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਨਾ, ਜਿੱਥੇ ਹਮਦਰਦੀ ਅਤੇ ਸਮਝ ਨੂੰ ਤਰਜੀਹ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ, ਇਲਾਜ ਅਤੇ ਰਿਕਵਰੀ ਲਈ ਇੱਕ ਵਧੇਰੇ ਸਹਾਇਕ ਜਗ੍ਹਾ ਬਣਾ ਸਕਦਾ ਹੈ।"
+practicalSikhPracticesEn:
+  - "Naam Simran: Regular meditation on the Divine Name to find inner peace and strength amidst emotional turmoil."
+  - "Sangat: Seek solace and support from the holy congregation, sharing experiences in a safe and confidential space."
+  - "Seva: Engaging in selfless service to shift focus from personal suffering to contributing positively to the community."
+  - "Gurbani Recitation/Listening: Finding comfort and guidance in the sacred verses, which offer perspectives on suffering and resilience."
+  - "Practicing Chardi Kala: Cultivating an optimistic and resilient mindset, believing in the ultimate triumph of good over evil and light over darkness."
+practicalSikhPracticesPu:
+  - "ਨਾਮ ਸਿਮਰਨ: ਭਾਵਨਾਤਮਕ ਉਥਲ-ਪੁਥਲ ਦੇ ਵਿਚਕਾਰ ਅੰਦਰੂਨੀ ਸ਼ਾਂਤੀ ਅਤੇ ਤਾਕਤ ਲੱਭਣ ਲਈ ਰੱਬੀ ਨਾਮ ਦਾ ਨਿਯਮਤ ਸਿਮਰਨ।"
+  - "ਸੰਗਤ: ਪਵਿੱਤਰ ਸੰਗਤ ਤੋਂ ਸ਼ਾਂਤੀ ਅਤੇ ਸਹਾਇਤਾ ਲਓ, ਇੱਕ ਸੁਰੱਖਿਅਤ ਅਤੇ ਗੁਪਤ ਜਗ੍ਹਾ ਵਿੱਚ ਅਨੁਭਵ ਸਾਂਝੇ ਕਰੋ।"
+  - "ਸੇਵਾ: ਨਿੱਜੀ ਦੁੱਖਾਂ ਤੋਂ ਭਾਈਚਾਰੇ ਵਿੱਚ ਸਕਾਰਾਤਮਕ ਯੋਗਦਾਨ ਪਾਉਣ ਲਈ ਨਿਰਸਵਾਰਥ ਸੇਵਾ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਣਾ।"
+  - "ਗੁਰਬਾਣੀ ਪਾਠ/ਸੁਣਨਾ: ਪਵਿੱਤਰ ਸ਼ਬਦਾਂ ਤੋਂ ਪ੍ਰੇਰਨਾ ਅਤੇ ਸ਼ਾਂਤੀ ਲੱਭੋ ਜੋ ਦੁੱਖ ਅਤੇ ਲਚਕਤਾ ਬਾਰੇ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਨ।"
+  - "ਚੜ੍ਹਦੀ ਕਲਾ ਦਾ ਅਭਿਆਸ ਕਰਨਾ: ਇੱਕ ਆਸ਼ਾਵਾਦੀ ਅਤੇ ਲਚਕੀਲਾ ਮਾਨਸਿਕਤਾ ਪੈਦਾ ਕਰਨਾ, ਬੁਰਾਈ ਉੱਤੇ ਚੰਗਿਆਈ ਅਤੇ ਹਨੇਰੇ ਉੱਤੇ ਪ੍ਰਕਾਸ਼ ਦੀ ਅੰਤਮ ਜਿੱਤ ਵਿੱਚ ਵਿਸ਼ਵਾਸ ਕਰਨਾ।"
 practicalSupportEn:
   - "Seek professional therapy or counseling specializing in trauma."
   - "Build a strong support system with trusted friends, family, or community members."

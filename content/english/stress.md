@@ -21,6 +21,22 @@ shabads:
     translation: "Whatever God does, accept it as good; this is true devotion."
     relevanceEn: "Accepting God's will can help alleviate stress by reducing resistance to life's challenges."
     relevancePu: "ਪ੍ਰਮਾਤਮਾ ਦੀ ਰਜ਼ਾ ਨੂੰ ਸਵੀਕਾਰ ਕਰਨਾ ਜੀਵਨ ਦੀਆਂ ਚੁਣੌਤੀਆਂ ਪ੍ਰਤੀ ਵਿਰੋਧ ਨੂੰ ਘਟਾ ਕੇ ਤਣਾਅ ਨੂੰ ਘਟਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ।"
+sikhTeachingsEn: "Sikhi provides a holistic approach to managing stress by emphasizing inner peace and acceptance. The concept of 'Hukam' (Divine Will) encourages us to accept life's challenges as part of a larger divine plan, reducing the burden of control. Practicing 'Santokh' (contentment) helps in finding peace amidst difficulties, while 'Naam Simran' (meditation on the Divine Name) calms the mind and fosters a sense of spiritual connection, which can be a powerful antidote to stress."
+sikhTeachingsPu: "ਸਿੱਖੀ ਅੰਦਰੂਨੀ ਸ਼ਾਂਤੀ ਅਤੇ ਸਵੀਕ੍ਰਿਤੀ 'ਤੇ ਜ਼ੋਰ ਦੇ ਕੇ ਤਣਾਅ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨ ਲਈ ਇੱਕ ਸੰਪੂਰਨ ਪਹੁੰਚ ਪ੍ਰਦਾਨ ਕਰਦੀ ਹੈ। 'ਹੁਕਮ' (ਰੱਬੀ ਇੱਛਾ) ਦਾ ਸੰਕਲਪ ਸਾਨੂੰ ਜੀਵਨ ਦੀਆਂ ਚੁਣੌਤੀਆਂ ਨੂੰ ਇੱਕ ਵੱਡੀ ਰੱਬੀ ਯੋਜਨਾ ਦੇ ਹਿੱਸੇ ਵਜੋਂ ਸਵੀਕਾਰ ਕਰਨ ਲਈ ਉਤਸ਼ਾਹਿਤ ਕਰਦਾ ਹੈ, ਨਿਯੰਤਰਣ ਦੇ ਬੋਝ ਨੂੰ ਘਟਾਉਂਦਾ ਹੈ। 'ਸੰਤੋਖ' (ਸੰਤੁਸ਼ਟੀ) ਦਾ ਅਭਿਆਸ ਮੁਸ਼ਕਲਾਂ ਦੇ ਵਿਚਕਾਰ ਸ਼ਾਂਤੀ ਲੱਭਣ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ, ਜਦੋਂ ਕਿ 'ਨਾਮ ਸਿਮਰਨ' (ਰੱਬੀ ਨਾਮ ਦਾ ਸਿਮਰਨ) ਮਨ ਨੂੰ ਸ਼ਾਂਤ ਕਰਦਾ ਹੈ ਅਤੇ ਅਧਿਆਤਮਿਕ ਸਬੰਧ ਦੀ ਭਾਵਨਾ ਪੈਦਾ ਕਰਦਾ ਹੈ, ਜੋ ਤਣਾਅ ਲਈ ਇੱਕ ਸ਼ਕਤੀਸ਼ਾਲੀ ਇਲਾਜ ਹੋ ਸਕਦਾ ਹੈ।"
+communityCulturalEn: "Within the Sikh community, stress can arise from various factors, including cultural expectations, family pressures, and balancing traditional values with modern life. The Sangat (holy congregation) serves as a crucial support system, offering a sense of community and shared values. Engaging in community service (Seva) can also provide a sense of purpose and reduce personal stress. Open communication within families and community leaders can help address stress-related issues and promote a supportive environment."
+communityCulturalPu: "ਸਿੱਖ ਭਾਈਚਾਰੇ ਦੇ ਅੰਦਰ, ਤਣਾਅ ਕਈ ਕਾਰਕਾਂ ਤੋਂ ਪੈਦਾ ਹੋ ਸਕਦਾ ਹੈ, ਜਿਸ ਵਿੱਚ ਸੱਭਿਆਚਾਰਕ ਉਮੀਦਾਂ, ਪਰਿਵਾਰਕ ਦਬਾਅ, ਅਤੇ ਆਧੁਨਿਕ ਜੀਵਨ ਨਾਲ ਰਵਾਇਤੀ ਕਦਰਾਂ-ਕੀਮਤਾਂ ਨੂੰ ਸੰਤੁਲਿਤ ਕਰਨਾ ਸ਼ਾਮਲ ਹੈ। ਸੰਗਤ (ਪਵਿੱਤਰ ਸੰਗਤ) ਇੱਕ ਮਹੱਤਵਪੂਰਨ ਸਹਾਇਤਾ ਪ੍ਰਣਾਲੀ ਵਜੋਂ ਕੰਮ ਕਰਦੀ ਹੈ, ਜੋ ਭਾਈਚਾਰੇ ਦੀ ਭਾਵਨਾ ਅਤੇ ਸਾਂਝੀਆਂ ਕਦਰਾਂ-ਕੀਮਤਾਂ ਪ੍ਰਦਾਨ ਕਰਦੀ ਹੈ। ਭਾਈਚਾਰਕ ਸੇਵਾ (ਸੇਵਾ) ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਣਾ ਵੀ ਉਦੇਸ਼ ਦੀ ਭਾਵਨਾ ਪ੍ਰਦਾਨ ਕਰ ਸਕਦਾ ਹੈ ਅਤੇ ਨਿੱਜੀ ਤਣਾਅ ਨੂੰ ਘਟਾ ਸਕਦਾ ਹੈ। ਪਰਿਵਾਰਾਂ ਅਤੇ ਭਾਈਚਾਰਕ ਨੇਤਾਵਾਂ ਦੇ ਅੰਦਰ ਖੁੱਲ੍ਹਾ ਸੰਚਾਰ ਤਣਾਅ-ਸਬੰਧਤ ਮੁੱਦਿਆਂ ਨੂੰ ਹੱਲ ਕਰਨ ਅਤੇ ਇੱਕ ਸਹਾਇਕ ਵਾਤਾਵਰਣ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ।"
+practicalSikhPracticesEn:
+  - "Daily Nitnem: Engaging in daily prayers and meditation to establish a routine and mental discipline."
+  - "Sangat: Actively participate in the holy congregation for community support and spiritual upliftment."
+  - "Seva: Engage in selfless service to foster a sense of purpose and reduce self-focus."
+  - "Gurbani Recitation/Listening: Find solace and guidance in the sacred verses of Guru Granth Sahib."
+  - "Practicing Santokh: Cultivating contentment and acceptance of Waheguru's will to reduce worry."
+practicalSikhPracticesPu:
+  - "ਰੋਜ਼ਾਨਾ ਨਿਤਨੇਮ: ਰੋਜ਼ਾਨਾ ਅਰਦਾਸਾਂ ਅਤੇ ਧਿਆਨ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਣਾ ਤਾਂ ਜੋ ਇੱਕ ਰੁਟੀਨ ਅਤੇ ਮਾਨਸਿਕ ਅਨੁਸ਼ਾਸਨ ਸਥਾਪਤ ਕੀਤਾ ਜਾ ਸਕੇ।"
+  - "ਸੰਗਤ: ਭਾਈਚਾਰਕ ਸਹਾਇਤਾ ਅਤੇ ਅਧਿਆਤਮਿਕ ਉੱਨਤੀ ਲਈ ਪਵਿੱਤਰ ਸੰਗਤ ਵਿੱਚ ਸਰਗਰਮੀ ਨਾਲ ਹਿੱਸਾ ਲਓ।"
+  - "ਸੇਵਾ: ਸਵੈ-ਕੇਂਦਰਿਤ ਚਿੰਤਾ ਨੂੰ ਘਟਾਉਣ ਲਈ ਆਪਣੇ ਆਪ ਤੋਂ ਦੂਜਿਆਂ ਵੱਲ ਧਿਆਨ ਬਦਲਣ ਲਈ ਨਿਰਸਵਾਰਥ ਸੇਵਾ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ।"
+  - "ਗੁਰਬਾਣੀ ਪਾਠ/ਸੁਣਨਾ: ਮਨ ਨੂੰ ਸ਼ਾਂਤ ਕਰਨ ਅਤੇ ਅੰਦਰੂਨੀ ਸ਼ਾਂਤੀ ਲੱਭਣ ਲਈ ਭਗਤੀ ਸੰਗੀਤ ਸੁਣਨਾ।"
+  - "ਸੰਤੋਖ ਦਾ ਅਭਿਆਸ ਕਰਨਾ: ਚਿੰਤਾ ਨੂੰ ਘਟਾਉਣ ਲਈ ਵਾਹਿਗੁਰੂ ਦੀ ਰਜ਼ਾ ਪ੍ਰਤੀ ਸੰਤੁਸ਼ਟੀ ਅਤੇ ਸਵੀਕ੍ਰਿਤੀ ਪੈਦਾ ਕਰਨਾ।"
 practicalSupportEn:
   - "Identify and address the sources of your stress."
   - "Practice mindfulness and meditation."

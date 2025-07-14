@@ -26,6 +26,27 @@
     </div>
     {{ end }}
 
+    <h2 class="text-3xl font-bold mb-4 lang-en">Sikh Teachings & Mental Resilience</h2>
+    <h2 class="text-3xl font-bold mb-4 lang-pu">ਸਿੱਖ ਸਿੱਖਿਆਵਾਂ ਅਤੇ ਮਾਨਸਿਕ ਲਚਕਤਾ</h2>
+    <p class="text-base leading-relaxed mb-8 lang-en">{{ .Params.sikhTeachingsEn }}</p>
+    <p class="text-base leading-relaxed mb-8 lang-pu">{{ .Params.sikhTeachingsPu }}</p>
+
+    <h2 class="text-3xl font-bold mb-4 lang-en">Community & Cultural Perspectives</h2>
+    <h2 class="text-3xl font-bold mb-4 lang-pu">ਭਾਈਚਾਰਕ ਅਤੇ ਸੱਭਿਆਚਾਰਕ ਦ੍ਰਿਸ਼ਟੀਕੋਣ</h2>
+    <p class="text-base leading-relaxed mb-8 lang-en">{{ .Params.communityCulturalEn }}</p>
+    <p class="text-base leading-relaxed mb-8 lang-pu">{{ .Params.communityCulturalPu }}</p>
+
+    <h2 class="text-3xl font-bold mb-4 lang-en">Practical Sikh Practices for Well-being</h2>
+    <h2 class="text-3xl font-bold mb-4 lang-pu">ਤੰਦਰੁਸਤੀ ਲਈ ਵਿਹਾਰਕ ਸਿੱਖ ਅਭਿਆਸ</h2>
+    <ul class="list-disc pl-8 mb-8">
+        {{ range .Params.practicalSikhPracticesEn }}
+        <li class="text-base mb-2 lang-en">{{ . }}</li>
+        {{ end }}
+        {{ range .Params.practicalSikhPracticesPu }}
+        <li class="text-base mb-2 lang-pu">{{ . }}</li>
+        {{ end }}
+    </ul>
+
     <h2 class="text-3xl font-bold mb-4 lang-en">Practical Support</h2>
     <h2 class="text-3xl font-bold mb-4 lang-pu">ਵਿਹਾਰਕ ਸਹਾਇਤਾ</h2>
     <ul class="list-disc pl-8 mb-8">

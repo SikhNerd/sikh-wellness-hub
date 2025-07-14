@@ -21,6 +21,22 @@ shabads:
     translation: "O my mind, you are the embodiment of the Divine Light - recognize your own origin."
     relevanceEn: "This is a powerful reminder of our inherent divine nature. Depression can cloud self-worth, and this shabad helps reconnect an individual to their intrinsic value and light."
     relevancePu: "ਇਹ ਸਾਡੇ ਅੰਦਰੂਨੀ ਬ੍ਰਹਮ ਸੁਭਾਅ ਦੀ ਇੱਕ ਸ਼ਕਤੀਸ਼ਾਲੀ ਯਾਦ ਦਿਵਾਉਂਦਾ ਹੈ। ਉਦਾਸੀ ਸਵੈ-ਮਾਣ ਨੂੰ ਧੁੰਦਲਾ ਕਰ ਸਕਦੀ ਹੈ, ਅਤੇ ਇਹ ਸ਼ਬਦ ਇੱਕ ਵਿਅਕਤੀ ਨੂੰ ਉਨ੍ਹਾਂ ਦੇ ਅੰਦਰੂਨੀ ਮੁੱਲ ਅਤੇ ਪ੍ਰਕਾਸ਼ ਨਾਲ ਦੁਬਾਰਾ ਜੋੜਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ।"
+sikhTeachingsEn: "Sikhi offers a profound framework for understanding and navigating mental health challenges. The concept of 'Man Jeetai Jag Jeet' (conquering the mind is conquering the world) highlights the importance of inner discipline and self-mastery. Through Gurbani, we learn to cultivate virtues like contentment (Santokh), humility (Nimrata), and compassion (Daya), which are essential for mental well-being. The teachings emphasize that true happiness (Sukh) comes from within, through connection with the Divine, rather than external pursuits."
+sikhTeachingsPu: "ਸਿੱਖੀ ਮਾਨਸਿਕ ਸਿਹਤ ਚੁਣੌਤੀਆਂ ਨੂੰ ਸਮਝਣ ਅਤੇ ਨੈਵੀਗੇਟ ਕਰਨ ਲਈ ਇੱਕ ਡੂੰਘਾ ਢਾਂਚਾ ਪ੍ਰਦਾਨ ਕਰਦੀ ਹੈ। 'ਮਨ ਜੀਤੈ ਜਗ ਜੀਤ' (ਮਨ ਨੂੰ ਜਿੱਤਣਾ ਸੰਸਾਰ ਨੂੰ ਜਿੱਤਣਾ ਹੈ) ਦਾ ਸੰਕਲਪ ਅੰਦਰੂਨੀ ਅਨੁਸ਼ਾਸਨ ਅਤੇ ਸਵੈ-ਨਿਯੰਤਰਣ ਦੀ ਮਹੱਤਵਪੂਰਨਤਾ ਨੂੰ ਉਜਾਗਰ ਕਰਦਾ ਹੈ। ਗੁਰਬਾਣੀ ਰਾਹੀਂ, ਅਸੀਂ ਸੰਤੋਖ (ਸੰਤੁਸ਼ਟੀ), ਨਿਮਰਤਾ (ਨਿਮਰਤਾ), ਅਤੇ ਦਇਆ (ਦਇਆ) ਵਰਗੇ ਗੁਣਾਂ ਨੂੰ ਪੈਦਾ ਕਰਨਾ ਸਿੱਖਦੇ ਹਾਂ, ਜੋ ਮਾਨਸਿਕ ਤੰਦਰੁਸਤੀ ਲਈ ਜ਼ਰੂਰੀ ਹਨ। ਸਿੱਖਿਆਵਾਂ ਇਸ ਗੱਲ 'ਤੇ ਜ਼ੋਰ ਦਿੰਦੀਆਂ ਹਨ ਕਿ ਸੱਚੀ ਖੁਸ਼ੀ (ਸੁਖ) ਅੰਦਰੋਂ ਆਉਂਦੀ ਹੈ, ਰੱਬੀ ਨਾਲ ਜੁੜਨ ਦੁਆਰਾ, ਨਾ ਕਿ ਬਾਹਰੀ ਪ੍ਰਾਪਤੀਆਂ ਦੁਆਰਾ।"
+communityCulturalEn: "The Sikh community, or Sangat, plays a vital role in supporting mental well-being. Connecting with Sangat provides a sense of belonging, reduces isolation, and offers a supportive environment for sharing experiences and seeking guidance. However, cultural stigma around mental health can sometimes prevent individuals from seeking help. It's important to foster open conversations and encourage a compassionate approach within the community, emphasizing that seeking help is a sign of strength and aligns with Sikh values of mutual support and care."
+communityCulturalPu: "ਸਿੱਖ ਭਾਈਚਾਰਾ, ਜਾਂ ਸੰਗਤ, ਮਾਨਸਿਕ ਤੰਦਰੁਸਤੀ ਦਾ ਸਮਰਥਨ ਕਰਨ ਵਿੱਚ ਇੱਕ ਮਹੱਤਵਪੂਰਨ ਭੂਮਿਕਾ ਨਿਭਾਉਂਦਾ ਹੈ। ਸੰਗਤ ਨਾਲ ਜੁੜਨਾ ਸਬੰਧ ਦੀ ਭਾਵਨਾ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ, ਇਕੱਲਤਾ ਨੂੰ ਘਟਾਉਂਦਾ ਹੈ, ਅਤੇ ਅਨੁਭਵਾਂ ਨੂੰ ਸਾਂਝਾ ਕਰਨ ਅਤੇ ਮਾਰਗਦਰਸ਼ਨ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਇੱਕ ਸਹਾਇਕ ਵਾਤਾਵਰਣ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ। ਹਾਲਾਂਕਿ, ਮਾਨਸਿਕ ਸਿਹਤ ਬਾਰੇ ਸੱਭਿਆਚਾਰਕ ਕਲੰਕ ਕਈ ਵਾਰ ਵਿਅਕਤੀਆਂ ਨੂੰ ਮਦਦ ਲੈਣ ਤੋਂ ਰੋਕ ਸਕਦਾ ਹੈ। ਭਾਈਚਾਰੇ ਦੇ ਅੰਦਰ ਖੁੱਲ੍ਹੀਆਂ ਗੱਲਬਾਤਾਂ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਨਾ ਅਤੇ ਇੱਕ ਦਇਆਵਾਨ ਪਹੁੰਚ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਨਾ ਮਹੱਤਵਪੂਰਨ ਹੈ, ਇਸ ਗੱਲ 'ਤੇ ਜ਼ੋਰ ਦਿੰਦੇ ਹੋਏ ਕਿ ਮਦਦ ਮੰਗਣਾ ਤਾਕਤ ਦੀ ਨਿਸ਼ਾਨੀ ਹੈ ਅਤੇ ਆਪਸੀ ਸਹਾਇਤਾ ਅਤੇ ਦੇਖਭਾਲ ਦੇ ਸਿੱਖ ਮੁੱਲਾਂ ਨਾਲ ਮੇਲ ਖਾਂਦਾ ਹੈ।"
+practicalSikhPracticesEn:
+  - "Naam Simran: Daily meditation on the Divine Name to calm the mind and connect with inner peace."
+  - "Sangat: Actively participate in the holy congregation for community support and spiritual upliftment."
+  - "Seva: Engage in selfless service to foster a sense of purpose and reduce self-focus."
+  - "Gurbani Recitation/Listening: Find solace and guidance in the sacred verses of Guru Granth Sahib."
+  - "Chardi Kala: Cultivate an optimistic outlook, facing challenges with courage and faith."
+practicalSikhPracticesPu:
+  - "ਨਾਮ ਸਿਮਰਨ: ਮਨ ਨੂੰ ਸ਼ਾਂਤ ਕਰਨ ਅਤੇ ਅੰਦਰੂਨੀ ਸ਼ਾਂਤੀ ਨਾਲ ਜੁੜਨ ਲਈ ਰੱਬੀ ਨਾਮ ਦਾ ਰੋਜ਼ਾਨਾ ਸਿਮਰਨ।"
+  - "ਸੰਗਤ: ਭਾਈਚਾਰਕ ਸਹਾਇਤਾ ਅਤੇ ਅਧਿਆਤਮਿਕ ਉੱਨਤੀ ਲਈ ਪਵਿੱਤਰ ਸੰਗਤ ਵਿੱਚ ਸਰਗਰਮੀ ਨਾਲ ਹਿੱਸਾ ਲਓ।"
+  - "ਸੇਵਾ: ਉਦੇਸ਼ ਦੀ ਭਾਵਨਾ ਪੈਦਾ ਕਰਨ ਅਤੇ ਸਵੈ-ਕੇਂਦਰਿਤਤਾ ਨੂੰ ਘਟਾਉਣ ਲਈ ਨਿਰਸਵਾਰਥ ਸੇਵਾ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ।"
+  - "ਗੁਰਬਾਣੀ ਪਾਠ/ਸੁਣਨਾ: ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਦੇ ਪਵਿੱਤਰ ਸ਼ਬਦਾਂ ਵਿੱਚ ਸ਼ਾਂਤੀ ਅਤੇ ਮਾਰਗਦਰਸ਼ਨ ਲੱਭੋ।"
+  - "ਚੜ੍ਹਦੀ ਕਲਾ: ਇੱਕ ਆਸ਼ਾਵਾਦੀ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਪੈਦਾ ਕਰੋ, ਹਿੰਮਤ ਅਤੇ ਵਿਸ਼ਵਾਸ ਨਾਲ ਚੁਣੌਤੀਆਂ ਦਾ ਸਾਹਮਣਾ ਕਰੋ।"
 practicalSupportEn:
   - "Talk about your feelings to a trusted friend, family member, or a professional."
   - "Engage in Seva: Even small acts of selfless service can improve your mood."
