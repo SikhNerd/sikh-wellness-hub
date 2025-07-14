@@ -1,7 +1,7 @@
 <header class="bg-white p-4 shadow-md sticky top-0 z-50">
     <nav class="container mx-auto flex items-center justify-between flex-wrap">
         <div class="flex items-center flex-shrink-0 text-dark-gray mr-6">
-            <img src="/khanda.svg" alt="Praying Hands Logo" class="h-8 w-8 mr-2">
+            <img src="/khanda.svg" alt="Sikh Wellness Logo" class="h-8 w-8 mr-2">
             <!-- <a href="/" class="font-bold text-xl tracking-tight lang-en">🙏🏽 </a> -->
             <a href="/" class="font-bold text-xl tracking-tight lang-en">Sikh Wellness Hub</a>
             <a href="/" class="font-bold text-xl tracking-tight lang-pu">ਸਿੱਖ ਵੈਲਨੈਸ ਹੱਬ</a>
@@ -12,13 +12,14 @@
             </button>
         </div>
         <div id="mobile-menu" class="w-full block flex-grow md:flex md:items-center md:w-auto hidden">
-            <ul class="text-sm md:flex-grow md:flex md:justify-end md:space-x-4">
-                <li><a href="/" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 mr-4 lang-en">Home</a><a href="/" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 mr-4 lang-pu">ਮੁੱਖ ਪੰਨਾ</a></li>
+            <div class="md:flex md:flex-grow md:justify-end md:items-center">
+                <ul class="text-sm md:flex md:space-x-6 md:items-center md:justify-end">
+                <li><a href="/" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 lang-en">Home</a><a href="/" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 lang-pu">ਮੁੱਖ ਪੰਨਾ</a></li>
                 <li class="relative group">
-                    <button id="mental-health-topics-dropdown-button" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 mr-4 focus:outline-none flex items-center">
-                        <span class="lang-en">Mental Health Topics</span>
-                        <span class="lang-pu">ਮਾਨਸਿਕ ਸਿਹਤ ਵਿਸ਼ੇ</span>
-                        <span class="ml-1">&#9662;</span>
+                    <button id="mental-health-topics-dropdown-button" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 focus:outline-none flex items-center">
+                        <span class="lang-en">Mental Health Topics &#9662;</span>
+                        <span class="lang-pu">ਮਾਨਸਿਕ ਸਿਹਤ ਵਿਸ਼ੇ &#9662;</span>
+                        <!-- <span class="ml-1">&#9662;</span> -->
                     </button>
                     <ul id="mental-health-topics-dropdown-menu" class="absolute hidden bg-white shadow-lg rounded-md mt-2 py-2 w-48 z-50">
                         <li><a href="/depression" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Depression</a><a href="/depression" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਉਦਾਸੀ</a></li>
@@ -31,13 +32,13 @@
                         <li><a href="/women" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Women's Mental Health</a><a href="/women" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਔਰਤਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</a></li>
                     </ul>
                 </li>
-                <li><a href="/resources" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 mr-4 lang-en">Resources</a><a href="/resources" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 mr-4 lang-pu">ਸਰੋਤ</a></li>
-                <li><a href="/about" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 lang-en">About</a><a href="/about" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 lang-pu">ਸਾਡੇ ਬਾਰੇ</a></li>
+                <li><a href="/resources" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 lang-en">Resources</a><a href="/resources" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 lang-pu">ਸਰੋਤ</a></li>
+                <li><a href="/about" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 mr-4 lang-en">About</a><a href="/about" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 mr-4 lang-pu">ਸਾਡੇ ਬਾਰੇ</a></li>
+                <div class="flex space-x-2 text-white mt-4 md:mt-0 md:items-center">
+                    <button id="lang-toggle-en" class="btn-primary text-sm px-4 py-2">English</button>
+                    <button id="lang-toggle-pu" class="btn-secondary text-sm px-4 py-2">ਪੰਜਾਬੀ</button>
+                </li>
             </ul>
-            <div class="flex space-x-2 text-white mt-4 md:mt-0">
-                <button id="lang-toggle-en" class="btn-primary text-sm px-4 py-2">English</button>
-                <button id="lang-toggle-pu" class="btn-secondary text-sm px-4 py-2">ਪੰਜਾਬੀ</button>
-            </div>
         </div>
     </nav>
     <script>
