@@ -1,0 +1,32 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Sikh Wellness Hub"
+theme = "sikh-wellness-theme" # We will create this theme later
+
+[languages]
+  [languages.en]
+    title = "Sikh Wellness Hub"
+    weight = 1
+    contentDir = "content/english"
+
+  [languages.pa]
+    title = "ਸਿੱਖ ਵੈਲਨੈਸ ਹੱਬ"
+    weight = 2
+    contentDir = "content/punjabi"
+
+[params]
+  description = "A safe space for Sikhs to explore mental wellness through faith and knowledge."
+  punjabiDescription = "ਸਿੱਖਾਂ ਲਈ ਵਿਸ਼ਵਾਸ ਅਤੇ ਗਿਆਨ ਰਾਹੀਂ ਮਾਨਸਿਕ ਤੰਦਰੁਸਤੀ ਦੀ ਪੜਚੋਲ ਕਰਨ ਲਈ ਇੱਕ ਸੁਰੱਖਿਅਤ ਥਾਂ।"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML", "RSS"]
+
+disableKinds = ["taxonomy", "taxonomyTerm"]

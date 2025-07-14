@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ਮੁੱਖ ਪੰਨਾ on ਸਿੱਖ ਵੈਲਨੈਸ ਹੱਬ</title>
+    <link>http://example.org/pa/</link>
+    <description>Recent content in ਮੁੱਖ ਪੰਨਾ on ਸਿੱਖ ਵੈਲਨੈਸ ਹੱਬ</description>
+    <generator>Hugo</generator>
+    <language>pa</language>
+    <atom:link href="http://example.org/pa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ਉਦਾਸੀ</title>
+      <link>http://example.org/pa/depression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/pa/depression/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ਔਰਤਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</title>
+      <link>http://example.org/pa/women/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/pa/women/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ਸਦਮਾ</title>
+      <link>http://example.org/pa/trauma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/pa/trauma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ਸਰੋਤ</title>
+      <link>http://example.org/pa/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/pa/resources/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ਸਾਡੇ ਬਾਰੇ ਅਤੇ ਮਿਸ਼ਨ</title>
+      <link>http://example.org/pa/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/pa/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ਚਿੰਤਾ</title>
+      <link>http://example.org/pa/anxiety/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/pa/anxiety/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ਤਣਾਅ</title>
+      <link>http://example.org/pa/stress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/pa/stress/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ਨਸ਼ਾ</title>
+      <link>http://example.org/pa/addiction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/pa/addiction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ਨੌਜਵਾਨਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</title>
+      <link>http://example.org/pa/youth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/pa/youth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ਬਜ਼ੁਰਗਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</title>
+      <link>http://example.org/pa/elderly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/pa/elderly/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

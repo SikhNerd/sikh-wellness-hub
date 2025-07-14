@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="pa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ਸਿੱਖ ਵੈਲਨੈਸ ਹੱਬ</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&family=Noto+Sans:wght@400;700&family=Noto+Sans+Gurmukhi:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans', 'Noto Sans Gurmukhi', sans-serif;
+            color: #333333;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Mukta', 'Noto Sans Gurmukhi', sans-serif;
+        }
+        .btn-primary {
+            background-color: #FFD700;
+            color: #333333;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;  
+            font-weight: bold;
+        }
+        .btn-secondary {
+            background-color: #FFFFFF;
+            color: #333333;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;  
+            border: 1px solid #87CEEB;
+            font-weight: bold;
+        }
+        .bg-primary-light {
+            background-color: #FFFBE6;  
+        }
+        .bg-secondary-light {
+            background-color: #E6F7FF;  
+        }
+        .bg-accent-light {
+            background-color: #FCFBE6;  
+        }
+        .text-dark-gray {
+            color: #333333;
+        }
+        .lang-en { display: block; }
+        .lang-pu { display: none; }
+
+         
+        .hero-section {
+            background-image: linear-gradient(to bottom, #FFFBE6, #E6F7FF);
+            padding-top: 8rem;
+            padding-bottom: 8rem;
+        }
+        .topic-card {
+            background-color: #FFFFFF;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+        .topic-card .icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #87CEEB;  
+        }
+        .topic-card h3 {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .topic-card p {
+            font-size: 0.9rem;
+            color: #666666;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <header class="bg-white p-4 shadow-md sticky top-0 z-50">
+    <nav class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center">
+            <img src="https://via.placeholder.com/30x30?text=Logo" alt="Sikh Wellness Hub Logo" class="mr-2">
+            <a href="/" class="text-xl font-bold text-dark-gray lang-en">Sikh Wellness Hub</a>
+            <a href="/" class="text-xl font-bold text-dark-gray lang-pu">ਸਿੱਖ ਵੈਲਨੈਸ ਹੱਬ</a>
+        </div>
+        <div class="flex items-center space-x-4">
+            <ul class="hidden md:flex space-x-4 items-center">
+                <li><a href="/" class="text-dark-gray hover:text-blue-600 lang-en">Home</a><a href="/" class="text-dark-gray hover:text-blue-600 lang-pu">ਮੁੱਖ ਪੰਨਾ</a></li>
+                <li class="relative group">
+                    <button id="mental-health-topics-dropdown-button" class="text-dark-gray hover:text-blue-600 flex items-center focus:outline-none">
+                        <span class="lang-en">Mental Health Topics</span>
+                        <span class="lang-pu">ਮਾਨਸਿਕ ਸਿਹਤ ਵਿਸ਼ੇ</span>
+                        <span class="ml-1">&#9662;</span>
+                    </button>
+                    <ul id="mental-health-topics-dropdown-menu" class="absolute hidden bg-white shadow-lg rounded-md mt-2 py-2 w-48">
+                        <li><a href="/depression" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Depression</a><a href="/depression" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਉਦਾਸੀ</a></li>
+                        <li><a href="/anxiety" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Anxiety</a><a href="/anxiety" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਚਿੰਤਾ</a></li>
+                        <li><a href="/stress" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Stress</a><a href="/stress" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਤਣਾਅ</a></li>
+                        <li><a href="/trauma" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Trauma</a><a href="/trauma" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਸਦਮਾ</a></li>
+                        <li><a href="/addiction" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Addiction</a><a href="/addiction" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਨਸ਼ਾ</a></li>
+                        <li><a href="/youth" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Youth Mental Health</a><a href="/youth" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਨੌਜਵਾਨਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</a></li>
+                        <li><a href="/elderly" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Elderly Mental Health</a><a href="/elderly" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਬਜ਼ੁਰਗਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</a></li>
+                        <li><a href="/women" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Women's Mental Health</a><a href="/women" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਔਰਤਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</a></li>
+                    </ul>
+                </li>
+                <li><a href="/resources" class="text-dark-gray hover:text-blue-600 lang-en">Resources</a><a href="/resources" class="text-dark-gray hover:text-blue-600 lang-pu">ਸਰੋਤ</a></li>
+                <li><a href="/about" class="text-dark-gray hover:text-blue-600 lang-en">About</a><a href="/about" class="text-dark-gray hover:text-blue-600 lang-pu">ਸਾਡੇ ਬਾਰੇ</a></li>
+            </ul>
+            <div class="flex space-x-2 text-white">
+                <button id="lang-toggle-en" class="btn-primary text-sm px-4 py-2">English</button>
+                <button id="lang-toggle-pu" class="btn-secondary text-sm px-4 py-2">ਪੰਜਾਬੀ</button>
+            </div>
+            <button id="hamburger-menu" class="md:hidden text-dark-gray text-2xl ml-4">☰</button>
+        </div>
+    </nav>
+    <div id="mobile-menu" class="md:hidden bg-white shadow-lg py-2 hidden">
+        <ul class="flex flex-col space-y-2 px-4">
+            <li><a href="/" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Home</a><a href="/" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਮੁੱਖ ਪੰਨਾ</a></li>
+            <li><a href="/depression" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Depression</a><a href="/depression" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਉਦਾਸੀ</a></li>
+            <li><a href="/anxiety" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Anxiety</a><a href="/anxiety" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਚਿੰਤਾ</a></li>
+            <li><a href="/stress" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Stress</a><a href="/stress" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਤਣਾਅ</a></li>
+            <li><a href="/trauma" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Trauma</a><a href="/trauma" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਸਦਮਾ</a></li>
+            <li><a href="/addiction" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Addiction</a><a href="/addiction" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਨਸ਼ਾ</a></li>
+            <li><a href="/youth" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Youth Mental Health</a><a href="/youth" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਨੌਜਵਾਨਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</a></li>
+            <li><a href="/elderly" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Elderly Mental Health</a><a href="/elderly" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਬਜ਼ੁਰਗਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</a></li>
+            <li><a href="/women" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Women's Mental Health</a><a href="/women" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਔਰਤਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</a></li>
+            <li><a href="/resources" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Resources</a><a href="/resources" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਸਰੋਤ</a></li>
+            <li><a href="/about" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">About</a><a href="/about" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਸਾਡੇ ਬਾਰੇ</a></li>
+        </ul>
+    </div>
+    <script>
+        document.getElementById('hamburger-menu').addEventListener('click', function() {
+            var mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.remove('hidden');
+            } else {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+
+        
+        const dropdownButton = document.getElementById('mental-health-topics-dropdown-button');
+        const dropdownMenu = document.getElementById('mental-health-topics-dropdown-menu');
+
+        if (dropdownButton && dropdownMenu) {
+            dropdownButton.addEventListener('click', () => {
+                dropdownMenu.classList.toggle('hidden');
+            });
+
+            
+            window.addEventListener('click', (event) => {
+                if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
+                    dropdownMenu.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+</header>
+
+    <main class="container mx-auto p-4">
+        
+<div class="container mx-auto p-4 py-8">
+    <h1 class="text-4xl font-bold text-center mb-4 lang-en">Resources</h1>
+    <h1 class="text-4xl font-bold text-center mb-4 lang-pu">ਸਰੋਤ</h1>
+    <p class="text-lg text-center text-gray-700 mb-12 lang-en">Find immediate help, ongoing support, and educational resources for mental health and wellness</p>
+    <p class="text-lg text-center text-gray-700 mb-12 lang-pu">ਮਾਨਸਿਕ ਸਿਹਤ ਅਤੇ ਤੰਦਰੁਸਤੀ ਲਈ ਤੁਰੰਤ ਮਦਦ, ਚੱਲ ਰਹੀ ਸਹਾਇਤਾ, ਅਤੇ ਵਿਦਿਅਕ ਸਰੋਤ ਲੱਭੋ</p>
+
+    
+    <section class="mb-12 p-8 rounded-lg bg-red-50 border border-red-200 shadow-sm">
+        <h2 class="text-3xl font-bold mb-6 text-red-700 flex items-center">
+            <span class="text-4xl mr-3">&#9888;</span>
+            <span class="lang-en">Crisis Resources - Get Help Now</span>
+            <span class="lang-pu">ਸੰਕਟਕਾਲੀਨ ਸਰੋਤ - ਹੁਣੇ ਮਦਦ ਪ੍ਰਾਪਤ ਕਰੋ</span>
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border border-red-100">
+                <h3 class="text-xl font-bold mb-2 lang-en">National Crisis Lifeline</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">ਰਾਸ਼ਟਰੀ ਸੰਕਟਕਾਲੀਨ ਲਾਈਫਲਾਈਨ</h3>
+                <p class="text-gray-600 mb-4 lang-en">24/7 free and confidential support</p>
+                <p class="text-gray-600 mb-4 lang-pu">24/7 ਮੁਫਤ ਅਤੇ ਗੁਪਤ ਸਹਾਇਤਾ</p>
+                <a href="#ZgotmplZ" class="btn-primary w-full text-center block">
+                    <span class="lang-en">Call 988</span>
+                    <span class="lang-pu">988 &#39;ਤੇ ਕਾਲ ਕਰੋ</span>
+                </a>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border border-red-100">
+                <h3 class="text-xl font-bold mb-2 lang-en">Crisis Text Line</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">ਸੰਕਟਕਾਲੀਨ ਟੈਕਸਟ ਲਾਈਨ</h3>
+                <p class="text-gray-600 mb-4 lang-en">Text support available 24/7</p>
+                <p class="text-gray-600 mb-4 lang-pu">24/7 ਟੈਕਸਟ ਸਹਾਇਤਾ ਉਪਲਬਧ</p>
+                <a href="#ZgotmplZ" class="btn-primary w-full text-center block">
+                    <span class="lang-en">Text HOME to 741741</span>
+                    <span class="lang-pu">HOME ਨੂੰ 741741 &#39;ਤੇ ਟੈਕਸਟ ਕਰੋ</span>
+                </a>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border border-red-100">
+                <h3 class="text-xl font-bold mb-2 lang-en">Emergency Services</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">ਐਮਰਜੈਂਸੀ ਸੇਵਾਵਾਂ</h3>
+                <p class="text-gray-600 mb-4 lang-en">For immediate medical emergencies</p>
+                <p class="text-gray-600 mb-4 lang-pu">ਤੁਰੰਤ ਡਾਕਟਰੀ ਐਮਰਜੈਂਸੀ ਲਈ</p>
+                <a href="#ZgotmplZ" class="btn-primary w-full text-center block">
+                    <span class="lang-en">Call 911</span>
+                    <span class="lang-pu">911 &#39;ਤੇ ਕਾਲ ਕਰੋ</span>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+    
+    <section class="mb-12 p-8 rounded-lg bg-yellow-50 border border-yellow-200 shadow-sm">
+        <h2 class="text-3xl font-bold mb-6 text-yellow-700 lang-en">Sikh Mental Health Organizations</h2>
+        <h2 class="text-3xl font-bold mb-6 text-yellow-700 lang-pu">ਸਿੱਖ ਮਾਨਸਿਕ ਸਿਹਤ ਸੰਸਥਾਵਾਂ</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border border-yellow-100">
+                <h3 class="text-xl font-bold mb-2 lang-en">Sikh Your Mind</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">ਸਿੱਖ ਯੂਅਰ ਮਾਈਂਡ</h3>
+                <p class="text-gray-600 mb-4 lang-en">Mental health advocacy and support specifically for the Sikh community</p>
+                <p class="text-gray-600 mb-4 lang-pu">ਸਿੱਖ ਭਾਈਚਾਰੇ ਲਈ ਖਾਸ ਤੌਰ &#39;ਤੇ ਮਾਨਸਿਕ ਸਿਹਤ ਦੀ ਵਕਾਲਤ ਅਤੇ ਸਹਾਇਤਾ</p>
+                <a href="#" class="text-blue-700 hover:underline font-semibold">
+                    <span class="lang-en">Visit Website</span>
+                    <span class="lang-pu">ਵੈੱਬਸਾਈਟ &#39;ਤੇ ਜਾਓ</span>
+                </a>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border border-yellow-100">
+                <h3 class="text-xl font-bold mb-2 lang-en">Sikh Family Center</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">ਸਿੱਖ ਪਰਿਵਾਰ ਕੇਂਦਰ</h3>
+                <p class="text-gray-600 mb-4 lang-en">Comprehensive family services including mental health support</p>
+                <p class="text-gray-600 mb-4 lang-pu">ਮਾਨਸਿਕ ਸਿਹਤ ਸਹਾਇਤਾ ਸਮੇਤ ਵਿਆਪਕ ਪਰਿਵਾਰਕ ਸੇਵਾਵਾਂ</p>
+                <a href="#ZgotmplZ" class="text-blue-700 hover:underline font-semibold">
+                    <span class="lang-en">Call: 1-800-366-8288</span>
+                    <span class="lang-pu">ਕਾਲ ਕਰੋ: 1-800-366-8288</span>
+                </a>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border border-yellow-100">
+                <h3 class="text-xl font-bold mb-2 lang-en">Khalsa Aid Mental Health</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">ਖਾਲਸਾ ਏਡ ਮਾਨਸਿਕ ਸਿਹਤ</h3>
+                <p class="text-gray-600 mb-4 lang-en">Global humanitarian organization offering mental health resources</p>
+                <p class="text-gray-600 mb-4 lang-pu">ਮਾਨਸਿਕ ਸਿਹਤ ਸਰੋਤ ਪ੍ਰਦਾਨ ਕਰਨ ਵਾਲੀ ਗਲੋਬਲ ਮਾਨਵਤਾਵਾਦੀ ਸੰਸਥਾ</p>
+                <a href="#" class="text-blue-700 hover:underline font-semibold">
+                    <span class="lang-en">Visit Website</span>
+                    <span class="lang-pu">ਵੈੱਬਸਾਈਟ &#39;ਤੇ ਜਾਓ</span>
+                </a>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border border-yellow-100">
+                <h3 class="text-xl font-bold mb-2 lang-en">Sikh Wisdom</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">ਸਿੱਖ ਵਿਜ਼ਡਮ</h3>
+                <p class="text-gray-600 mb-4 lang-en">Educational resources connecting Sikh philosophy with mental wellness</p>
+                <p class="text-gray-600 mb-4 lang-pu">ਸਿੱਖ ਫਲਸਫੇ ਨੂੰ ਮਾਨਸਿਕ ਤੰਦਰੁਸਤੀ ਨਾਲ ਜੋੜਨ ਵਾਲੇ ਵਿਦਿਅਕ ਸਰੋਤ</p>
+                <a href="#" class="text-blue-700 hover:underline font-semibold">
+                    <span class="lang-en">Visit Website</span>
+                    <span class="lang-pu">ਵੈੱਬਸਾਈਟ &#39;ਤੇ ਜਾਓ</span>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+    
+    <section class="mb-12 p-8 rounded-lg bg-blue-50 border border-blue-200 shadow-sm">
+        <h2 class="text-3xl font-bold mb-6 text-blue-700 lang-en">Professional Mental Health Services</h2>
+        <h2 class="text-3xl font-bold mb-6 text-blue-700 lang-pu">ਪੇਸ਼ੇਵਰ ਮਾਨਸਿਕ ਸਿਹਤ ਸੇਵਾਵਾਂ</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border border-blue-100">
+                <h3 class="text-xl font-bold mb-2 lang-en">National Alliance on Mental Illness (NAMI)</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">ਮਾਨਸਿਕ ਬਿਮਾਰੀ &#39;ਤੇ ਰਾਸ਼ਟਰੀ ਗਠਜੋੜ (NAMI)</h3>
+                <p class="text-gray-600 mb-4 lang-en">Support groups, education, and advocacy</p>
+                <p class="text-gray-600 mb-4 lang-pu">ਸਹਾਇਤਾ ਸਮੂਹ, ਸਿੱਖਿਆ, ਅਤੇ ਵਕਾਲਤ</p>
+                <a href="#" class="text-blue-700 hover:underline font-semibold">
+                    <span class="lang-en">Visit Website</span>
+                    <span class="lang-pu">ਵੈੱਬਸਾਈਟ &#39;ਤੇ ਜਾਓ</span>
+                </a>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border border-blue-100">
+                <h3 class="text-xl font-bold mb-2 lang-en">Psychology Today</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">ਸਾਈਕਾਲੋਜੀ ਟੂਡੇ</h3>
+                <p class="text-gray-600 mb-4 lang-en">Find therapists and mental health professionals</p>
+                <p class="text-gray-600 mb-4 lang-pu">ਥੈਰੇਪਿਸਟ ਅਤੇ ਮਾਨਸਿਕ ਸਿਹਤ ਪੇਸ਼ੇਵਰ ਲੱਭੋ</p>
+                <a href="#" class="text-blue-700 hover:underline font-semibold">
+                    <span class="lang-en">Find a Therapist</span>
+                    <span class="lang-pu">ਇੱਕ ਥੈਰੇਪਿਸਟ ਲੱਭੋ</span>
+                </a>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border border-blue-100">
+                <h3 class="text-xl font-bold mb-2 lang-en">Mental Health America</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">ਮੈਂਟਲ ਹੈਲਥ ਅਮਰੀਕਾ</h3>
+                <p class="text-gray-600 mb-4 lang-en">Mental health screening and resources</p>
+                <p class="text-gray-600 mb-4 lang-pu">ਮਾਨਸਿਕ ਸਿਹਤ ਸਕ੍ਰੀਨਿੰਗ ਅਤੇ ਸਰੋਤ</p>
+                <a href="#" class="text-blue-700 hover:underline font-semibold">
+                    <span class="lang-en">Visit Website</span>
+                    <span class="lang-pu">ਵੈੱਬਸਾਈਟ &#39;ਤੇ ਜਾਓ</span>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+    
+    <section class="mb-12 p-8 rounded-lg bg-green-50 border border-green-200 shadow-sm">
+        <h2 class="text-3xl font-bold mb-6 text-green-700 lang-en">Books & Educational Resources</h2>
+        <h2 class="text-3xl font-bold mb-6 text-green-700 lang-pu">ਕਿਤਾਬਾਂ ਅਤੇ ਵਿਦਿਅਕ ਸਰੋਤ</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border border-green-100">
+                <h3 class="text-xl font-bold mb-4 lang-en">Sikh Mental Health Books</h3>
+                <h3 class="text-xl font-bold mb-4 lang-pu">ਸਿੱਖ ਮਾਨਸਿਕ ਸਿਹਤ ਕਿਤਾਬਾਂ</h3>
+                <ul class="list-disc pl-5 space-y-2">
+                    
+                    <li>
+                        
+                        <span class="lang-en">&#34;The Mind of the Khalsa&#34; - Exploring Sikh psychology and mental wellness</span>
+                        <span class="lang-pu">&#34;ਖਾਲਸਾ ਦਾ ਮਨ&#34; - ਸਿੱਖ ਮਨੋਵਿਗਿਆਨ ਅਤੇ ਮਾਨਸਿਕ ਤੰਦਰੁਸਤੀ ਦੀ ਪੜਚੋਲ</span>
+                        
+                    </li>
+                    
+                    <li>
+                        
+                        <span class="lang-en">&#34;Gurbani and Mental Health&#34; - Spiritual guidance for emotional healing</span>
+                        <span class="lang-pu">&#34;ਗੁਰਬਾਣੀ ਅਤੇ ਮਾਨਸਿਕ ਸਿਹਤ&#34; - ਭਾਵਨਾਤਮਕ ਇਲਾਜ ਲਈ ਅਧਿਆਤਮਿਕ ਮਾਰਗਦਰਸ਼ਨ</span>
+                        
+                    </li>
+                    
+                    <li>
+                        
+                        <span class="lang-en">&#34;Chardi Kala: The Sikh Path to Resilience&#34;</span>
+                        <span class="lang-pu">&#34;ਚੜ੍ਹਦੀ ਕਲਾ: ਲਚਕਤਾ ਦਾ ਸਿੱਖ ਮਾਰਗ&#34;</span>
+                        
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border border-green-100">
+                <h3 class="text-xl font-bold mb-4 lang-en">Online Learning</h3>
+                <h3 class="text-xl font-bold mb-4 lang-pu">ਆਨਲਾਈਨ ਸਿੱਖਿਆ</h3>
+                <ul class="list-disc pl-5 space-y-2">
+                    
+                    <li>
+                        
+                        <a href="#" class="text-blue-700 hover:underline">
+                            <span class="lang-en">Managing Emotions in Times of Uncertainty &amp; Stress (Coursera)</span>
+                            <span class="lang-pu">ਅਨਿਸ਼ਚਿਤਤਾ ਅਤੇ ਤਣਾਅ ਦੇ ਸਮੇਂ ਵਿੱਚ ਭਾਵਨਾਵਾਂ ਦਾ ਪ੍ਰਬੰਧਨ (ਕੋਰਸੇਰਾ)</span>
+                        </a>
+                        
+                    </li>
+                    
+                    <li>
+                        
+                        <a href="#" class="text-blue-700 hover:underline">
+                            <span class="lang-en">Mindfulness-Based Stress Reduction</span>
+                            <span class="lang-pu">ਮਾਈਂਡਫੁਲਨੈੱਸ-ਆਧਾਰਿਤ ਤਣਾਅ ਘਟਾਉਣਾ</span>
+                        </a>
+                        
+                    </li>
+                    
+                    <li>
+                        
+                        <a href="#" class="text-blue-700 hover:underline">
+                            <span class="lang-en">Sikh Educational Resources</span>
+                            <span class="lang-pu">ਸਿੱਖ ਵਿਦਿਅਕ ਸਰੋਤ</span>
+                        </a>
+                        
+                    </li>
+                    
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+
+    
+    <section class="mb-12 p-8 rounded-lg bg-purple-50 border border-purple-200 shadow-sm">
+        <h2 class="text-3xl font-bold mb-6 text-purple-700 lang-en">Mental Health Apps</h2>
+        <h2 class="text-3xl font-bold mb-6 text-purple-700 lang-pu">ਮਾਨਸਿਕ ਸਿਹਤ ਐਪਸ</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border border-purple-100 text-center">
+                <h3 class="text-xl font-bold mb-2 lang-en">Headspace</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">ਹੈੱਡਸਪੇਸ</h3>
+                <p class="text-gray-600 mb-4 lang-en">Guided meditation and mindfulness</p>
+                <p class="text-gray-600 mb-4 lang-pu">ਗਾਈਡਡ ਮੈਡੀਟੇਸ਼ਨ ਅਤੇ ਮਾਈਂਡਫੁਲਨੈੱਸ</p>
+                <div class="flex justify-center space-x-4">
+                    
+                    <a href="#" class="text-blue-700 hover:underline font-semibold">
+                        iOS
+                    </a>
+                    
+                    <a href="#" class="text-blue-700 hover:underline font-semibold">
+                        Android
+                    </a>
+                    
+                </div>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border border-purple-100 text-center">
+                <h3 class="text-xl font-bold mb-2 lang-en">Calm</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">ਕਾਮ</h3>
+                <p class="text-gray-600 mb-4 lang-en">Sleep stories and relaxation</p>
+                <p class="text-gray-600 mb-4 lang-pu">ਨੀਂਦ ਦੀਆਂ ਕਹਾਣੀਆਂ ਅਤੇ ਆਰਾਮ</p>
+                <div class="flex justify-center space-x-4">
+                    
+                    <a href="#" class="text-blue-700 hover:underline font-semibold">
+                        iOS
+                    </a>
+                    
+                    <a href="#" class="text-blue-700 hover:underline font-semibold">
+                        Android
+                    </a>
+                    
+                </div>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border border-purple-100 text-center">
+                <h3 class="text-xl font-bold mb-2 lang-en">Youper</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">ਯੂਪਰ</h3>
+                <p class="text-gray-600 mb-4 lang-en">AI-powered mood tracking</p>
+                <p class="text-gray-600 mb-4 lang-pu">AI-ਸੰਚਾਲਿਤ ਮੂਡ ਟਰੈਕਿੰਗ</p>
+                <div class="flex justify-center space-x-4">
+                    
+                    <a href="#" class="text-blue-700 hover:underline font-semibold">
+                        iOS
+                    </a>
+                    
+                    <a href="#" class="text-blue-700 hover:underline font-semibold">
+                        Android
+                    </a>
+                    
+                </div>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border border-purple-100 text-center">
+                <h3 class="text-xl font-bold mb-2 lang-en">MindShift</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">ਮਾਈਂਡਸ਼ਿਫਟ</h3>
+                <p class="text-gray-600 mb-4 lang-en">Anxiety management tools</p>
+                <p class="text-gray-600 mb-4 lang-pu">ਚਿੰਤਾ ਪ੍ਰਬੰਧਨ ਸਾਧਨ</p>
+                <div class="flex justify-center space-x-4">
+                    
+                    <a href="#" class="text-blue-700 hover:underline font-semibold">
+                        iOS
+                    </a>
+                    
+                    <a href="#" class="text-blue-700 hover:underline font-semibold">
+                        Android
+                    </a>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    
+    <section class="p-8 rounded-lg bg-blue-100 border border-blue-300 text-blue-800 text-center">
+        <h3 class="text-2xl font-bold mb-4 lang-en">Important Notice</h3>
+        <h3 class="text-2xl font-bold mb-4 lang-pu">ਮਹੱਤਵਪੂਰਨ ਨੋਟਿਸ</h3>
+        <p class="text-base leading-relaxed lang-en">
+            The information provided on this website is for educational purposes only and is not a substitute for
+            professional mental health care. If you are experiencing a mental health emergency, please contact
+            emergency services immediately or call the crisis hotlines listed above.
+        </p>
+        <p class="text-base leading-relaxed lang-pu">
+            ਇਸ ਵੈੱਬਸਾਈਟ 'ਤੇ ਦਿੱਤੀ ਗਈ ਜਾਣਕਾਰੀ ਸਿਰਫ਼ ਵਿਦਿਅਕ ਉਦੇਸ਼ਾਂ ਲਈ ਹੈ ਅਤੇ ਪੇਸ਼ੇਵਰ ਮਾਨਸਿਕ ਸਿਹਤ ਦੇਖਭਾਲ ਦਾ ਬਦਲ ਨਹੀਂ ਹੈ।
+            ਜੇ ਤੁਸੀਂ ਮਾਨਸਿਕ ਸਿਹਤ ਐਮਰਜੈਂਸੀ ਦਾ ਅਨੁਭਵ ਕਰ ਰਹੇ ਹੋ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਤੁਰੰਤ ਐਮਰਜੈਂਸੀ ਸੇਵਾਵਾਂ ਨਾਲ ਸੰਪਰਕ ਕਰੋ ਜਾਂ ਉੱਪਰ ਸੂਚੀਬੱਧ ਸੰਕਟਕਾਲੀਨ ਹੌਟਲਾਈਨਾਂ 'ਤੇ ਕਾਲ ਕਰੋ।
+        </p>
+    </section>
+</div>
+
+    </main>
+    <footer class="bg-accent p-8 text-dark-gray">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+            <h3 class="font-bold text-lg mb-4 lang-en">Crisis Resources</h3>
+            <h3 class="font-bold text-lg mb-4 lang-pu">ਸੰਕਟਕਾਲੀਨ ਸਰੋਤ</h3>
+            <ul class="list-none p-0 space-y-2">
+                <li><span class="lang-en">Crisis Lifeline: </span><span class="lang-pu">ਸੰਕਟਕਾਲੀਨ ਲਾਈਫਲਾਈਨ: </span><a href="tel:988" class="text-blue-700 hover:underline">988</a></li>
+                <li><span class="lang-en">Sikh Family Center: </span><span class="lang-pu">ਸਿੱਖ ਪਰਿਵਾਰ ਕੇਂਦਰ: </span><a href="tel:1-800-366-8288" class="text-blue-700 hover:underline">1-800-366-8288</a></li>
+                <li><span class="lang-en">Text HOME to </span><span class="lang-pu">HOME ਨੂੰ ਟੈਕਸਟ ਕਰੋ </span><a href="sms:741741" class="text-blue-700 hover:underline">741741</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="font-bold text-lg mb-4 lang-en">Sikh Organizations</h3>
+            <h3 class="font-bold text-lg mb-4 lang-pu">ਸਿੱਖ ਸੰਸਥਾਵਾਂ</h3>
+            <ul class="list-none p-0 space-y-2">
+                <li><a href="#" class="text-blue-700 hover:underline lang-en">Sikh Your Mind</a><a href="#" class="text-blue-700 hover:underline lang-pu">ਸਿੱਖ ਯੂਅਰ ਮਾਈਂਡ</a></li>
+                <li><a href="#" class="text-blue-700 hover:underline lang-en">Sikh Wisdom</a><a href="#" class="text-blue-700 hover:underline lang-pu">ਸਿੱਖ ਵਿਜ਼ਡਮ</a></li>
+                <li><a href="#" class="text-blue-700 hover:underline lang-en">Sikh Family Center</a><a href="#" class="text-blue-700 hover:underline lang-pu">ਸਿੱਖ ਪਰਿਵਾਰ ਕੇਂਦਰ</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="font-bold text-lg mb-4 lang-en">Contact</h3>
+            <h3 class="font-bold text-lg mb-4 lang-pu">ਸੰਪਰਕ</h3>
+            <p class="space-y-2"><a href="mailto:info@sikhwellnesshub.org" class="text-blue-700 hover:underline">info@sikhwellnesshub.org</a></p>
+            <p class="text-sm mt-2 lang-en">For educational purposes only. Not a substitute for professional mental health care.</p>
+            <p class="text-sm mt-2 lang-pu">ਸਿਰਫ਼ ਵਿਦਿਅਕ ਉਦੇਸ਼ਾਂ ਲਈ। ਪੇਸ਼ੇਵਰ ਮਾਨਸਿਕ ਸਿਹਤ ਦੇਖਭਾਲ ਦਾ ਬਦਲ ਨਹੀਂ।</p>
+        </div>
+    </div>
+    <div class="text-center mt-8">
+        <p class="lang-en">© 1 Sikh Wellness Hub. All rights reserved.</p>
+        <p class="lang-pu">© 1 ਸਿੱਖ ਵੈਲਨੈਸ ਹੱਬ। ਸਾਰੇ ਹੱਕ ਰਾਖਵੇਂ ਹਨ।</p>
+    </div>
+</footer>
+
+    <script>
+        function setLanguage(lang) {
+            localStorage.setItem('language', lang);
+            updateLanguageDisplay(lang);
+        }
+
+        function updateLanguageDisplay(lang) {
+            document.querySelectorAll('.lang-en').forEach(el => {
+                el.style.display = (lang === 'en') ? 'block' : 'none';
+            });
+            document.querySelectorAll('.lang-pu').forEach(el => {
+                el.style.display = (lang === 'pu') ? 'block' : 'none';
+            });
+
+            
+            const englishToggle = document.getElementById('lang-toggle-en');
+            const punjabiToggle = document.getElementById('lang-toggle-pu');
+
+            if (englishToggle && punjabiToggle) {
+                if (lang === 'en') {
+                    englishToggle.classList.add('font-bold', 'bg-yellow-400', 'text-dark-gray');
+                    englishToggle.classList.remove('bg-white', 'text-gray-500', 'border', 'border-blue-400');
+                    punjabiToggle.classList.remove('font-bold', 'bg-yellow-400', 'text-dark-gray');
+                    punjabiToggle.classList.add('bg-white', 'text-gray-500', 'border', 'border-blue-400');
+                } else {
+                    punjabiToggle.classList.add('font-bold', 'bg-yellow-400', 'text-dark-gray');
+                    punjabiToggle.classList.remove('bg-white', 'text-gray-500', 'border', 'border-blue-400');
+                    englishToggle.classList.remove('font-bold', 'bg-yellow-400', 'text-dark-gray');
+                    englishToggle.classList.add('bg-white', 'text-gray-500', 'border', 'border-blue-400');
+                }
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            let userLang = localStorage.getItem('language');
+            if (!userLang) {
+                const browserLang = navigator.language || navigator.userLanguage;
+                if (browserLang.startsWith('pa')) {
+                    userLang = 'pu';
+                } else {
+                    userLang = 'en'; 
+                }
+            }
+            updateLanguageDisplay(userLang);
+
+            const englishToggle = document.getElementById('lang-toggle-en');
+            const punjabiToggle = document.getElementById('lang-toggle-pu');
+
+            if (englishToggle) {
+                englishToggle.addEventListener('click', () => setLanguage('en'));
+            }
+            if (punjabiToggle) {
+                punjabiToggle.addEventListener('click', () => setLanguage('pu'));
+            }
+        });
+    </script>
+</body>
+</html>

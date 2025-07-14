@@ -1,0 +1,138 @@
+{{ define "main" }}
+<div class="container mx-auto p-4 py-8">
+    <h1 class="text-4xl font-bold text-center mb-4 lang-en">Resources</h1>
+    <h1 class="text-4xl font-bold text-center mb-4 lang-pu">ਸਰੋਤ</h1>
+    <p class="text-lg text-center text-gray-700 mb-12 lang-en">Find immediate help, ongoing support, and educational resources for mental health and wellness</p>
+    <p class="text-lg text-center text-gray-700 mb-12 lang-pu">ਮਾਨਸਿਕ ਸਿਹਤ ਅਤੇ ਤੰਦਰੁਸਤੀ ਲਈ ਤੁਰੰਤ ਮਦਦ, ਚੱਲ ਰਹੀ ਸਹਾਇਤਾ, ਅਤੇ ਵਿਦਿਅਕ ਸਰੋਤ ਲੱਭੋ</p>
+
+    <!-- Crisis Resources -->
+    <section class="mb-12 p-8 rounded-lg bg-red-50 border border-red-200 shadow-sm">
+        <h2 class="text-3xl font-bold mb-6 text-red-700 flex items-center">
+            <span class="text-4xl mr-3">&#9888;</span>
+            <span class="lang-en">Crisis Resources - Get Help Now</span>
+            <span class="lang-pu">ਸੰਕਟਕਾਲੀਨ ਸਰੋਤ - ਹੁਣੇ ਮਦਦ ਪ੍ਰਾਪਤ ਕਰੋ</span>
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {{ range .Params.crisisResources }}
+            <div class="bg-white p-6 rounded-lg shadow-md border border-red-100">
+                <h3 class="text-xl font-bold mb-2 lang-en">{{ .titleEn }}</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">{{ .titlePu }}</h3>
+                <p class="text-gray-600 mb-4 lang-en">{{ .descriptionEn }}</p>
+                <p class="text-gray-600 mb-4 lang-pu">{{ .descriptionPu }}</p>
+                <a href="{{ .buttonLink }}" class="btn-primary w-full text-center block">
+                    <span class="lang-en">{{ .buttonTextEn }}</span>
+                    <span class="lang-pu">{{ .buttonTextPu }}</span>
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- Sikh Mental Health Organizations -->
+    <section class="mb-12 p-8 rounded-lg bg-yellow-50 border border-yellow-200 shadow-sm">
+        <h2 class="text-3xl font-bold mb-6 text-yellow-700 lang-en">Sikh Mental Health Organizations</h2>
+        <h2 class="text-3xl font-bold mb-6 text-yellow-700 lang-pu">ਸਿੱਖ ਮਾਨਸਿਕ ਸਿਹਤ ਸੰਸਥਾਵਾਂ</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+            {{ range .Params.sikhOrganizations }}
+            <div class="bg-white p-6 rounded-lg shadow-md border border-yellow-100">
+                <h3 class="text-xl font-bold mb-2 lang-en">{{ .nameEn }}</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">{{ .namePu }}</h3>
+                <p class="text-gray-600 mb-4 lang-en">{{ .descriptionEn }}</p>
+                <p class="text-gray-600 mb-4 lang-pu">{{ .descriptionPu }}</p>
+                <a href="{{ .linkUrl }}" class="text-blue-700 hover:underline font-semibold">
+                    <span class="lang-en">{{ .linkTextEn }}</span>
+                    <span class="lang-pu">{{ .linkTextPu }}</span>
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- Professional Mental Health Services -->
+    <section class="mb-12 p-8 rounded-lg bg-blue-50 border border-blue-200 shadow-sm">
+        <h2 class="text-3xl font-bold mb-6 text-blue-700 lang-en">Professional Mental Health Services</h2>
+        <h2 class="text-3xl font-bold mb-6 text-blue-700 lang-pu">ਪੇਸ਼ੇਵਰ ਮਾਨਸਿਕ ਸਿਹਤ ਸੇਵਾਵਾਂ</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {{ range .Params.professionalServices }}
+            <div class="bg-white p-6 rounded-lg shadow-md border border-blue-100">
+                <h3 class="text-xl font-bold mb-2 lang-en">{{ .nameEn }}</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">{{ .namePu }}</h3>
+                <p class="text-gray-600 mb-4 lang-en">{{ .descriptionEn }}</p>
+                <p class="text-gray-600 mb-4 lang-pu">{{ .descriptionPu }}</p>
+                <a href="{{ .linkUrl }}" class="text-blue-700 hover:underline font-semibold">
+                    <span class="lang-en">{{ .linkTextEn }}</span>
+                    <span class="lang-pu">{{ .linkTextPu }}</span>
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- Books & Educational Resources -->
+    <section class="mb-12 p-8 rounded-lg bg-green-50 border border-green-200 shadow-sm">
+        <h2 class="text-3xl font-bold mb-6 text-green-700 lang-en">Books & Educational Resources</h2>
+        <h2 class="text-3xl font-bold mb-6 text-green-700 lang-pu">ਕਿਤਾਬਾਂ ਅਤੇ ਵਿਦਿਅਕ ਸਰੋਤ</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {{ range .Params.booksAndEducation }}
+            <div class="bg-white p-6 rounded-lg shadow-md border border-green-100">
+                <h3 class="text-xl font-bold mb-4 lang-en">{{ .categoryEn }}</h3>
+                <h3 class="text-xl font-bold mb-4 lang-pu">{{ .categoryPu }}</h3>
+                <ul class="list-disc pl-5 space-y-2">
+                    {{ range .items }}
+                    <li>
+                        {{ if .linkUrl }}
+                        <a href="{{ .linkUrl }}" class="text-blue-700 hover:underline">
+                            <span class="lang-en">{{ .textEn }}</span>
+                            <span class="lang-pu">{{ .textPu }}</span>
+                        </a>
+                        {{ else }}
+                        <span class="lang-en">{{ .textEn }}</span>
+                        <span class="lang-pu">{{ .textPu }}</span>
+                        {{ end }}
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- Mental Health Apps -->
+    <section class="mb-12 p-8 rounded-lg bg-purple-50 border border-purple-200 shadow-sm">
+        <h2 class="text-3xl font-bold mb-6 text-purple-700 lang-en">Mental Health Apps</h2>
+        <h2 class="text-3xl font-bold mb-6 text-purple-700 lang-pu">ਮਾਨਸਿਕ ਸਿਹਤ ਐਪਸ</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            {{ range .Params.mentalHealthApps }}
+            <div class="bg-white p-6 rounded-lg shadow-md border border-purple-100 text-center">
+                <h3 class="text-xl font-bold mb-2 lang-en">{{ .nameEn }}</h3>
+                <h3 class="text-xl font-bold mb-2 lang-pu">{{ .namePu }}</h3>
+                <p class="text-gray-600 mb-4 lang-en">{{ .descriptionEn }}</p>
+                <p class="text-gray-600 mb-4 lang-pu">{{ .descriptionPu }}</p>
+                <div class="flex justify-center space-x-4">
+                    {{ range .platforms }}
+                    <a href="{{ .url }}" class="text-blue-700 hover:underline font-semibold">
+                        {{ .name }}
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- Important Notice -->
+    <section class="p-8 rounded-lg bg-blue-100 border border-blue-300 text-blue-800 text-center">
+        <h3 class="text-2xl font-bold mb-4 lang-en">Important Notice</h3>
+        <h3 class="text-2xl font-bold mb-4 lang-pu">ਮਹੱਤਵਪੂਰਨ ਨੋਟਿਸ</h3>
+        <p class="text-base leading-relaxed lang-en">
+            The information provided on this website is for educational purposes only and is not a substitute for
+            professional mental health care. If you are experiencing a mental health emergency, please contact
+            emergency services immediately or call the crisis hotlines listed above.
+        </p>
+        <p class="text-base leading-relaxed lang-pu">
+            ਇਸ ਵੈੱਬਸਾਈਟ 'ਤੇ ਦਿੱਤੀ ਗਈ ਜਾਣਕਾਰੀ ਸਿਰਫ਼ ਵਿਦਿਅਕ ਉਦੇਸ਼ਾਂ ਲਈ ਹੈ ਅਤੇ ਪੇਸ਼ੇਵਰ ਮਾਨਸਿਕ ਸਿਹਤ ਦੇਖਭਾਲ ਦਾ ਬਦਲ ਨਹੀਂ ਹੈ।
+            ਜੇ ਤੁਸੀਂ ਮਾਨਸਿਕ ਸਿਹਤ ਐਮਰਜੈਂਸੀ ਦਾ ਅਨੁਭਵ ਕਰ ਰਹੇ ਹੋ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਤੁਰੰਤ ਐਮਰਜੈਂਸੀ ਸੇਵਾਵਾਂ ਨਾਲ ਸੰਪਰਕ ਕਰੋ ਜਾਂ ਉੱਪਰ ਸੂਚੀਬੱਧ ਸੰਕਟਕਾਲੀਨ ਹੌਟਲਾਈਨਾਂ 'ਤੇ ਕਾਲ ਕਰੋ।
+        </p>
+    </section>
+</div>
+{{ end }}

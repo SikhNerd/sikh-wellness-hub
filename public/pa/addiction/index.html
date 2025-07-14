@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ਸਿੱਖ ਵੈਲਨੈਸ ਹੱਬ</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&family=Noto+Sans:wght@400;700&family=Noto+Sans+Gurmukhi:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans', 'Noto Sans Gurmukhi', sans-serif;
+            color: #333333;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Mukta', 'Noto Sans Gurmukhi', sans-serif;
+        }
+        .btn-primary {
+            background-color: #FFD700;
+            color: #333333;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;  
+            font-weight: bold;
+        }
+        .btn-secondary {
+            background-color: #FFFFFF;
+            color: #333333;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;  
+            border: 1px solid #87CEEB;
+            font-weight: bold;
+        }
+        .bg-primary-light {
+            background-color: #FFFBE6;  
+        }
+        .bg-secondary-light {
+            background-color: #E6F7FF;  
+        }
+        .bg-accent-light {
+            background-color: #FCFBE6;  
+        }
+        .text-dark-gray {
+            color: #333333;
+        }
+        .lang-en { display: block; }
+        .lang-pu { display: none; }
+
+         
+        .hero-section {
+            background-image: linear-gradient(to bottom, #FFFBE6, #E6F7FF);
+            padding-top: 8rem;
+            padding-bottom: 8rem;
+        }
+        .topic-card {
+            background-color: #FFFFFF;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+        .topic-card .icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #87CEEB;  
+        }
+        .topic-card h3 {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .topic-card p {
+            font-size: 0.9rem;
+            color: #666666;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <header class="bg-white p-4 shadow-md sticky top-0 z-50">
+    <nav class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center">
+            <img src="https://via.placeholder.com/30x30?text=Logo" alt="Sikh Wellness Hub Logo" class="mr-2">
+            <a href="/" class="text-xl font-bold text-dark-gray lang-en">Sikh Wellness Hub</a>
+            <a href="/" class="text-xl font-bold text-dark-gray lang-pu">ਸਿੱਖ ਵੈਲਨੈਸ ਹੱਬ</a>
+        </div>
+        <div class="flex items-center space-x-4">
+            <ul class="hidden md:flex space-x-4 items-center">
+                <li><a href="/" class="text-dark-gray hover:text-blue-600 lang-en">Home</a><a href="/" class="text-dark-gray hover:text-blue-600 lang-pu">ਮੁੱਖ ਪੰਨਾ</a></li>
+                <li class="relative group">
+                    <button id="mental-health-topics-dropdown-button" class="text-dark-gray hover:text-blue-600 flex items-center focus:outline-none">
+                        <span class="lang-en">Mental Health Topics</span>
+                        <span class="lang-pu">ਮਾਨਸਿਕ ਸਿਹਤ ਵਿਸ਼ੇ</span>
+                        <span class="ml-1">&#9662;</span>
+                    </button>
+                    <ul id="mental-health-topics-dropdown-menu" class="absolute hidden bg-white shadow-lg rounded-md mt-2 py-2 w-48">
+                        <li><a href="/depression" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Depression</a><a href="/depression" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਉਦਾਸੀ</a></li>
+                        <li><a href="/anxiety" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Anxiety</a><a href="/anxiety" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਚਿੰਤਾ</a></li>
+                        <li><a href="/stress" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Stress</a><a href="/stress" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਤਣਾਅ</a></li>
+                        <li><a href="/trauma" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Trauma</a><a href="/trauma" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਸਦਮਾ</a></li>
+                        <li><a href="/addiction" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Addiction</a><a href="/addiction" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਨਸ਼ਾ</a></li>
+                        <li><a href="/youth" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Youth Mental Health</a><a href="/youth" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਨੌਜਵਾਨਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</a></li>
+                        <li><a href="/elderly" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Elderly Mental Health</a><a href="/elderly" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਬਜ਼ੁਰਗਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</a></li>
+                        <li><a href="/women" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Women's Mental Health</a><a href="/women" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਔਰਤਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</a></li>
+                    </ul>
+                </li>
+                <li><a href="/resources" class="text-dark-gray hover:text-blue-600 lang-en">Resources</a><a href="/resources" class="text-dark-gray hover:text-blue-600 lang-pu">ਸਰੋਤ</a></li>
+                <li><a href="/about" class="text-dark-gray hover:text-blue-600 lang-en">About</a><a href="/about" class="text-dark-gray hover:text-blue-600 lang-pu">ਸਾਡੇ ਬਾਰੇ</a></li>
+            </ul>
+            <div class="flex space-x-2 text-white">
+                <button id="lang-toggle-en" class="btn-primary text-sm px-4 py-2">English</button>
+                <button id="lang-toggle-pu" class="btn-secondary text-sm px-4 py-2">ਪੰਜਾਬੀ</button>
+            </div>
+            <button id="hamburger-menu" class="md:hidden text-dark-gray text-2xl ml-4">☰</button>
+        </div>
+    </nav>
+    <div id="mobile-menu" class="md:hidden bg-white shadow-lg py-2 hidden">
+        <ul class="flex flex-col space-y-2 px-4">
+            <li><a href="/" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Home</a><a href="/" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਮੁੱਖ ਪੰਨਾ</a></li>
+            <li><a href="/depression" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Depression</a><a href="/depression" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਉਦਾਸੀ</a></li>
+            <li><a href="/anxiety" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Anxiety</a><a href="/anxiety" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਚਿੰਤਾ</a></li>
+            <li><a href="/stress" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Stress</a><a href="/stress" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਤਣਾਅ</a></li>
+            <li><a href="/trauma" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Trauma</a><a href="/trauma" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਸਦਮਾ</a></li>
+            <li><a href="/addiction" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Addiction</a><a href="/addiction" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਨਸ਼ਾ</a></li>
+            <li><a href="/youth" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Youth Mental Health</a><a href="/youth" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਨੌਜਵਾਨਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</a></li>
+            <li><a href="/elderly" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Elderly Mental Health</a><a href="/elderly" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਬਜ਼ੁਰਗਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</a></li>
+            <li><a href="/women" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Women's Mental Health</a><a href="/women" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਔਰਤਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</a></li>
+            <li><a href="/resources" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">Resources</a><a href="/resources" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਸਰੋਤ</a></li>
+            <li><a href="/about" class="block py-2 text-dark-gray hover:bg-gray-100 lang-en">About</a><a href="/about" class="block py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਸਾਡੇ ਬਾਰੇ</a></li>
+        </ul>
+    </div>
+    <script>
+        document.getElementById('hamburger-menu').addEventListener('click', function() {
+            var mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.remove('hidden');
+            } else {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+
+        
+        const dropdownButton = document.getElementById('mental-health-topics-dropdown-button');
+        const dropdownMenu = document.getElementById('mental-health-topics-dropdown-menu');
+
+        if (dropdownButton && dropdownMenu) {
+            dropdownButton.addEventListener('click', () => {
+                dropdownMenu.classList.toggle('hidden');
+            });
+
+            
+            window.addEventListener('click', (event) => {
+                if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
+                    dropdownMenu.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+</header>
+
+    <main class="container mx-auto p-4">
+        
+<article class="prose lg:prose-xl mx-auto p-4 py-8">
+    <h1 class="text-4xl font-bold mb-2 lang-en">ਨਸ਼ਾ</h1>
+    <h1 class="text-4xl font-bold mb-2 lang-pu">ਨਸ਼ਾ</h1>
+
+    <p class="text-lg text-gray-700 mb-8 lang-en">Addiction is a complex disease that affects the brain and behavior. It is characterized by an intense craving for a substance or behavior, and a compulsive pursuit of it despite harmful consequences.</p>
+    <p class="text-lg text-gray-700 mb-8 lang-pu">ਨਸ਼ਾ ਇੱਕ ਗੁੰਝਲਦਾਰ ਬਿਮਾਰੀ ਹੈ ਜੋ ਦਿਮਾਗ ਅਤੇ ਵਿਵਹਾਰ ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰਦੀ ਹੈ। ਇਸਦੀ ਵਿਸ਼ੇਸ਼ਤਾ ਕਿਸੇ ਪਦਾਰਥ ਜਾਂ ਵਿਵਹਾਰ ਲਈ ਤੀਬਰ ਲਾਲਸਾ, ਅਤੇ ਨੁਕਸਾਨਦੇਹ ਨਤੀਜਿਆਂ ਦੇ ਬਾਵਜੂਦ ਇਸਦਾ ਲਾਜ਼ਮੀ ਪਿੱਛਾ ਕਰਨਾ ਹੈ।</p>
+
+    <h2 class="text-3xl font-bold mb-4 lang-en">What is ਨਸ਼ਾ?</h2>
+    <h2 class="text-3xl font-bold mb-4 lang-pu">ਨਸ਼ਾ ਕੀ ਹੈ?</h2>
+    <p class="text-base leading-relaxed mb-8 lang-en">Addiction is a chronic, relapsing brain disease that is characterized by compulsive drug seeking and use, despite harmful consequences. It is considered a brain disease because drugs change the brain—they change its structure and how it works. These brain changes can be long-lasting and can lead to the harmful, self-destructive behaviors seen in people who abuse drugs.</p>
+    <p class="text-base leading-relaxed mb-8 lang-pu">ਨਸ਼ਾ ਇੱਕ ਪੁਰਾਣੀ, ਦੁਬਾਰਾ ਹੋਣ ਵਾਲੀ ਦਿਮਾਗੀ ਬਿਮਾਰੀ ਹੈ ਜਿਸਦੀ ਵਿਸ਼ੇਸ਼ਤਾ ਨੁਕਸਾਨਦੇਹ ਨਤੀਜਿਆਂ ਦੇ ਬਾਵਜੂਦ ਨਸ਼ੀਲੇ ਪਦਾਰਥਾਂ ਦੀ ਲਾਜ਼ਮੀ ਖੋਜ ਅਤੇ ਵਰਤੋਂ ਹੈ। ਇਸਨੂੰ ਦਿਮਾਗੀ ਬਿਮਾਰੀ ਮੰਨਿਆ ਜਾਂਦਾ ਹੈ ਕਿਉਂਕਿ ਨਸ਼ੇ ਦਿਮਾਗ ਨੂੰ ਬਦਲਦੇ ਹਨ—ਉਹ ਇਸਦੀ ਬਣਤਰ ਅਤੇ ਕੰਮ ਕਰਨ ਦੇ ਤਰੀਕੇ ਨੂੰ ਬਦਲਦੇ ਹਨ। ਇਹ ਦਿਮਾਗੀ ਤਬਦੀਲੀਆਂ ਲੰਬੇ ਸਮੇਂ ਤੱਕ ਚੱਲਣ ਵਾਲੀਆਂ ਹੋ ਸਕਦੀਆਂ ਹਨ ਅਤੇ ਨਸ਼ੀਲੇ ਪਦਾਰਥਾਂ ਦੀ ਦੁਰਵਰਤੋਂ ਕਰਨ ਵਾਲੇ ਲੋਕਾਂ ਵਿੱਚ ਦੇਖੇ ਗਏ ਨੁਕਸਾਨਦੇਹ, ਸਵੈ-ਵਿਨਾਸ਼ਕਾਰੀ ਵਿਵਹਾਰਾਂ ਦਾ ਕਾਰਨ ਬਣ ਸਕਦੀਆਂ ਹਨ।</p>
+
+    <h2 class="text-3xl font-bold mb-4 lang-en">Guidance from the Guru</h2>
+    <h2 class="text-3xl font-bold mb-4 lang-pu">ਗੁਰੂ ਦਾ ਮਾਰਗਦਰਸ਼ਨ</h2>
+    <p class="text-base leading-relaxed mb-8 lang-en">Sikhi advocates for a life of moderation and self-control (Sanjam). Gurbani teaches us to overcome our five vices, including lust, anger, greed, attachment, and ego, which can lead to addictive behaviors. Through Naam Simran and Sangat, individuals can find the spiritual strength to resist temptations and embark on a path of recovery and spiritual growth.</p>
+    <p class="text-base leading-relaxed mb-8 lang-pu">ਸਿੱਖੀ ਸੰਜਮ ਅਤੇ ਸਵੈ-ਨਿਯੰਤਰਣ (ਸੰਜਮ) ਦੇ ਜੀਵਨ ਦੀ ਵਕਾਲਤ ਕਰਦੀ ਹੈ। ਗੁਰਬਾਣੀ ਸਾਨੂੰ ਆਪਣੀਆਂ ਪੰਜ ਬੁਰਾਈਆਂ, ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਕਾਮ, ਕ੍ਰੋਧ, ਲੋਭ, ਮੋਹ, ਅਤੇ ਹੰਕਾਰ ਸ਼ਾਮਲ ਹਨ, ਨੂੰ ਦੂਰ ਕਰਨ ਦੀ ਸਿੱਖਿਆ ਦਿੰਦੀ ਹੈ, ਜੋ ਨਸ਼ੇੜੀ ਵਿਵਹਾਰਾਂ ਦਾ ਕਾਰਨ ਬਣ ਸਕਦੀਆਂ ਹਨ। ਨਾਮ ਸਿਮਰਨ ਅਤੇ ਸੰਗਤ ਦੁਆਰਾ, ਵਿਅਕਤੀ ਲਾਲਚਾਂ ਦਾ ਵਿਰੋਧ ਕਰਨ ਅਤੇ ਰਿਕਵਰੀ ਅਤੇ ਅਧਿਆਤਮਿਕ ਵਿਕਾਸ ਦੇ ਮਾਰਗ &#39;ਤੇ ਚੱਲਣ ਲਈ ਅਧਿਆਤਮਿਕ ਤਾਕਤ ਲੱਭ ਸਕਦੇ ਹਨ।</p>
+
+    
+    <div class="my-6 p-6 bg-accent-light rounded-lg shadow-md">
+        <p class="font-bold text-xl mb-2 lang-pu">ਮਨੁ ਮੈਲਾ ਸਚੁ ਨਿਰਮਲਾ ਤਨੁ ਮੈਲਾ ਹਛਾ ਹੋਇ ॥</p>
+        <p class="italic text-gray-700 mb-2 lang-en">Man mailaa sach nirmalaa tan mailaa hachhaa hoi.</p>
+        <p class="text-base mb-2 lang-en">Translation: The mind is polluted, the Truth is pure; the body is polluted, it becomes clean.</p>
+        <p class="text-sm text-gray-600 mt-4 lang-en">Relevance: This shabad highlights the importance of purifying the mind, which is often at the root of addictive behaviors. Spiritual cleansing through Naam Simran can lead to true liberation.</p>
+        <p class="text-sm text-gray-600 mt-4 lang-pu">ਪ੍ਰਸੰਗ: ਇਹ ਸ਼ਬਦ ਮਨ ਨੂੰ ਸ਼ੁੱਧ ਕਰਨ ਦੀ ਮਹੱਤਤਾ ਨੂੰ ਉਜਾਗਰ ਕਰਦਾ ਹੈ, ਜੋ ਅਕਸਰ ਨਸ਼ੇੜੀ ਵਿਵਹਾਰਾਂ ਦੀ ਜੜ੍ਹ ਹੁੰਦਾ ਹੈ। ਅਧਿਆਤਮਿਕ ਸ਼ੁੱਧੀਕਰਨ ਸੱਚੀ ਮੁਕਤੀ ਵੱਲ ਲੈ ਜਾ ਸਕਦਾ ਹੈ।</p>
+    </div>
+    
+    <div class="my-6 p-6 bg-accent-light rounded-lg shadow-md">
+        <p class="font-bold text-xl mb-2 lang-pu">ਜਿਨੀ ਨਾਮੁ ਧਿਆਇਆ ਗਏ ਮਸਕਤਿ ਘਾਲਿ ॥ ਨਾਨਕ ਤੇ ਮੁਖ ਉਜਲੇ ਕੇਤੀ ਛੁਟੀ ਨਾਲਿ ॥</p>
+        <p class="italic text-gray-700 mb-2 lang-en">Jinee naam dhiaaiaa gae maskat ghaal. Naanak te mukh ujale ketee chhutee naal.</p>
+        <p class="text-base mb-2 lang-en">Translation: Those who meditate on the Naam, their efforts are fruitful. O Nanak, their faces are radiant, and many are emancipated along with them.</p>
+        <p class="text-sm text-gray-600 mt-4 lang-en">Relevance: This shabad offers hope and encouragement for those struggling with addiction, emphasizing that through devotion and spiritual practice, not only can they find liberation, but they can also inspire others.</p>
+        <p class="text-sm text-gray-600 mt-4 lang-pu">ਪ੍ਰਸੰਗ: ਇਹ ਸ਼ਬਦ ਨਸ਼ੇ ਨਾਲ ਜੂਝ ਰਹੇ ਲੋਕਾਂ ਲਈ ਉਮੀਦ ਅਤੇ ਹੌਸਲਾ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ, ਇਸ ਗੱਲ &#39;ਤੇ ਜ਼ੋਰ ਦਿੰਦਾ ਹੈ ਕਿ ਭਗਤੀ ਅਤੇ ਅਧਿਆਤਮਿਕ ਅਭਿਆਸ ਦੁਆਰਾ, ਉਹ ਨਾ ਸਿਰਫ਼ ਮੁਕਤੀ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦੇ ਹਨ, ਬਲਕਿ ਦੂਜਿਆਂ ਨੂੰ ਵੀ ਪ੍ਰੇਰਿਤ ਕਰ ਸਕਦੇ ਹਨ।</p>
+    </div>
+    
+
+    <h2 class="text-3xl font-bold mb-4 lang-en">Practical Support</h2>
+    <h2 class="text-3xl font-bold mb-4 lang-pu">ਵਿਹਾਰਕ ਸਹਾਇਤਾ</h2>
+    <ul class="list-disc pl-8 mb-8">
+        
+        <li class="text-base mb-2 lang-en">Seek professional help from addiction specialists or rehabilitation centers.</li>
+        
+        <li class="text-base mb-2 lang-en">Join support groups like Narcotics Anonymous (NA) or Alcoholics Anonymous (AA).</li>
+        
+        <li class="text-base mb-2 lang-en">Engage in spiritual practices and community activities to strengthen your resolve.</li>
+        
+        <li class="text-base mb-2 lang-en">Develop healthy coping mechanisms and avoid triggers.</li>
+        
+        
+        <li class="text-base mb-2 lang-pu">ਨਸ਼ਾ ਮੁਕਤੀ ਮਾਹਿਰਾਂ ਜਾਂ ਮੁੜ ਵਸੇਬਾ ਕੇਂਦਰਾਂ ਤੋਂ ਪੇਸ਼ੇਵਰ ਮਦਦ ਲਓ।</li>
+        
+        <li class="text-base mb-2 lang-pu">ਨਾਰਕੋਟਿਕਸ ਅਨੌਨੀਮਸ (NA) ਜਾਂ ਅਲਕੋਹਲਿਕਸ ਅਨੌਨੀਮਸ (AA) ਵਰਗੇ ਸਹਾਇਤਾ ਸਮੂਹਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ।</li>
+        
+        <li class="text-base mb-2 lang-pu">ਆਪਣੇ ਸੰਕਲਪ ਨੂੰ ਮਜ਼ਬੂਤ ​​ਕਰਨ ਲਈ ਅਧਿਆਤਮਿਕ ਅਭਿਆਸਾਂ ਅਤੇ ਭਾਈਚਾਰਕ ਗਤੀਵਿਧੀਆਂ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ।</li>
+        
+        <li class="text-base mb-2 lang-pu">ਸਿਹਤਮੰਦ ਮੁਕਾਬਲਾ ਕਰਨ ਦੇ ਤਰੀਕੇ ਵਿਕਸਿਤ ਕਰੋ ਅਤੇ ਟਰਿੱਗਰਾਂ ਤੋਂ ਬਚੋ।</li>
+        
+    </ul>
+
+    <h3 class="text-2xl font-bold mb-4 lang-en">External Resources:</h3>
+    <h3 class="text-2xl font-bold mb-4 lang-pu">ਬਾਹਰੀ ਸਰੋਤ:</h3>
+    <ul class="list-disc pl-8">
+        
+        <li><a href="#" class="text-blue-700 hover:underline text-base lang-en">Substance Abuse and Mental Health Services Administration (SAMHSA)</a><a href="#" class="text-blue-700 hover:underline text-base lang-pu">ਸਬਸਟੈਂਸ ਅਬਿਊਜ਼ ਐਂਡ ਮੈਂਟਲ ਹੈਲਥ ਸਰਵਿਸਿਜ਼ ਐਡਮਿਨਿਸਟ੍ਰੇਸ਼ਨ (SAMHSA)</a></li>
+        
+        <li><a href="#" class="text-blue-700 hover:underline text-base lang-en">National Institute on Drug Abuse (NIDA)</a><a href="#" class="text-blue-700 hover:underline text-base lang-pu">ਨੈਸ਼ਨਲ ਇੰਸਟੀਚਿਊਟ ਆਨ ਡਰੱਗ ਅਬਿਊਜ਼ (NIDA)</a></li>
+        
+    </ul>
+</article>
+
+    </main>
+    <footer class="bg-accent p-8 text-dark-gray">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+            <h3 class="font-bold text-lg mb-4 lang-en">Crisis Resources</h3>
+            <h3 class="font-bold text-lg mb-4 lang-pu">ਸੰਕਟਕਾਲੀਨ ਸਰੋਤ</h3>
+            <ul class="list-none p-0 space-y-2">
+                <li><span class="lang-en">Crisis Lifeline: </span><span class="lang-pu">ਸੰਕਟਕਾਲੀਨ ਲਾਈਫਲਾਈਨ: </span><a href="tel:988" class="text-blue-700 hover:underline">988</a></li>
+                <li><span class="lang-en">Sikh Family Center: </span><span class="lang-pu">ਸਿੱਖ ਪਰਿਵਾਰ ਕੇਂਦਰ: </span><a href="tel:1-800-366-8288" class="text-blue-700 hover:underline">1-800-366-8288</a></li>
+                <li><span class="lang-en">Text HOME to </span><span class="lang-pu">HOME ਨੂੰ ਟੈਕਸਟ ਕਰੋ </span><a href="sms:741741" class="text-blue-700 hover:underline">741741</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="font-bold text-lg mb-4 lang-en">Sikh Organizations</h3>
+            <h3 class="font-bold text-lg mb-4 lang-pu">ਸਿੱਖ ਸੰਸਥਾਵਾਂ</h3>
+            <ul class="list-none p-0 space-y-2">
+                <li><a href="#" class="text-blue-700 hover:underline lang-en">Sikh Your Mind</a><a href="#" class="text-blue-700 hover:underline lang-pu">ਸਿੱਖ ਯੂਅਰ ਮਾਈਂਡ</a></li>
+                <li><a href="#" class="text-blue-700 hover:underline lang-en">Sikh Wisdom</a><a href="#" class="text-blue-700 hover:underline lang-pu">ਸਿੱਖ ਵਿਜ਼ਡਮ</a></li>
+                <li><a href="#" class="text-blue-700 hover:underline lang-en">Sikh Family Center</a><a href="#" class="text-blue-700 hover:underline lang-pu">ਸਿੱਖ ਪਰਿਵਾਰ ਕੇਂਦਰ</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="font-bold text-lg mb-4 lang-en">Contact</h3>
+            <h3 class="font-bold text-lg mb-4 lang-pu">ਸੰਪਰਕ</h3>
+            <p class="space-y-2"><a href="mailto:info@sikhwellnesshub.org" class="text-blue-700 hover:underline">info@sikhwellnesshub.org</a></p>
+            <p class="text-sm mt-2 lang-en">For educational purposes only. Not a substitute for professional mental health care.</p>
+            <p class="text-sm mt-2 lang-pu">ਸਿਰਫ਼ ਵਿਦਿਅਕ ਉਦੇਸ਼ਾਂ ਲਈ। ਪੇਸ਼ੇਵਰ ਮਾਨਸਿਕ ਸਿਹਤ ਦੇਖਭਾਲ ਦਾ ਬਦਲ ਨਹੀਂ।</p>
+        </div>
+    </div>
+    <div class="text-center mt-8">
+        <p class="lang-en">© 1 Sikh Wellness Hub. All rights reserved.</p>
+        <p class="lang-pu">© 1 ਸਿੱਖ ਵੈਲਨੈਸ ਹੱਬ। ਸਾਰੇ ਹੱਕ ਰਾਖਵੇਂ ਹਨ।</p>
+    </div>
+</footer>
+
+    <script>
+        function setLanguage(lang) {
+            localStorage.setItem('language', lang);
+            updateLanguageDisplay(lang);
+        }
+
+        function updateLanguageDisplay(lang) {
+            document.querySelectorAll('.lang-en').forEach(el => {
+                el.style.display = (lang === 'en') ? 'block' : 'none';
+            });
+            document.querySelectorAll('.lang-pu').forEach(el => {
+                el.style.display = (lang === 'pu') ? 'block' : 'none';
+            });
+
+            
+            const englishToggle = document.getElementById('lang-toggle-en');
+            const punjabiToggle = document.getElementById('lang-toggle-pu');
+
+            if (englishToggle && punjabiToggle) {
+                if (lang === 'en') {
+                    englishToggle.classList.add('font-bold', 'bg-yellow-400', 'text-dark-gray');
+                    englishToggle.classList.remove('bg-white', 'text-gray-500', 'border', 'border-blue-400');
+                    punjabiToggle.classList.remove('font-bold', 'bg-yellow-400', 'text-dark-gray');
+                    punjabiToggle.classList.add('bg-white', 'text-gray-500', 'border', 'border-blue-400');
+                } else {
+                    punjabiToggle.classList.add('font-bold', 'bg-yellow-400', 'text-dark-gray');
+                    punjabiToggle.classList.remove('bg-white', 'text-gray-500', 'border', 'border-blue-400');
+                    englishToggle.classList.remove('font-bold', 'bg-yellow-400', 'text-dark-gray');
+                    englishToggle.classList.add('bg-white', 'text-gray-500', 'border', 'border-blue-400');
+                }
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            let userLang = localStorage.getItem('language');
+            if (!userLang) {
+                const browserLang = navigator.language || navigator.userLanguage;
+                if (browserLang.startsWith('pa')) {
+                    userLang = 'pu';
+                } else {
+                    userLang = 'en'; 
+                }
+            }
+            updateLanguageDisplay(userLang);
+
+            const englishToggle = document.getElementById('lang-toggle-en');
+            const punjabiToggle = document.getElementById('lang-toggle-pu');
+
+            if (englishToggle) {
+                englishToggle.addEventListener('click', () => setLanguage('en'));
+            }
+            if (punjabiToggle) {
+                punjabiToggle.addEventListener('click', () => setLanguage('pu'));
+            }
+        });
+    </script>
+</body>
+</html>
