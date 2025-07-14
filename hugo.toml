@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://sikhnerd.github.io/"
 languageCode = "en-us"
 title = "Sikh Wellness Hub"
 theme = "sikh-wellness-theme" # We will create this theme later
