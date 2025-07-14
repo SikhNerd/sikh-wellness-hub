@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://sikh-wellness-hub.netlify.app/"
 languageCode = "en-us"
 title = "Sikh Wellness Hub"
 theme = "sikh-wellness-theme" # We will create this theme later

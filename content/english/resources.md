@@ -5,6 +5,8 @@ introductionEn: "Here you will find a collection of external resources related t
 introductionPu: "ਇੱਥੇ ਤੁਹਾਨੂੰ ਮਾਨਸਿਕ ਸਿਹਤ ਅਤੇ ਸਿੱਖ ਧਰਮ ਨਾਲ ਸਬੰਧਤ ਬਾਹਰੀ ਸਰੋਤਾਂ ਦਾ ਸੰਗ੍ਰਹਿ ਮਿਲੇਗਾ।"
 summaryEn: "Find external resources for mental health support."
 summaryPu: "ਮਾਨਸਿਕ ਸਿਹਤ ਸਹਾਇਤਾ ਲਈ ਬਾਹਰੀ ਸਰੋਤ ਲੱਭੋ।"
+type: resources
+layout: single
 
 crisisResources:
   - titleEn: "National Crisis Lifeline"
