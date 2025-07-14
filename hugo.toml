@@ -1,4 +1,4 @@
-baseURL = "https://sikhnerd.github.io/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Sikh Wellness Hub"
 theme = "sikh-wellness-theme" # We will create this theme later
@@ -30,8 +30,3 @@ theme = "sikh-wellness-theme" # We will create this theme later
   taxonomyTerm = ["HTML", "RSS"]
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
-
-
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
