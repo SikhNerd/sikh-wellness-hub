@@ -10,6 +10,7 @@
         body {
             font-family: 'Noto Sans', 'Noto Sans Gurmukhi', sans-serif;
             color: #333333;
+            background: linear-gradient(135deg, #FFFBE6 0%, #E6F7FF 100%);
         }
         h1, h2, h3, h4, h5, h6 {
             font-family: 'Mukta', 'Noto Sans Gurmukhi', sans-serif;
@@ -18,62 +19,93 @@
             background-color: #FFD700;
             color: #333333;
             padding: 0.75rem 1.5rem;
-            border-radius: 9999px; /* Fully rounded */
+            border-radius: 9999px;
             font-weight: bold;
+            box-shadow: 0 2px 8px rgba(255, 215, 0, 0.10);
+            transition: background 0.2s;
+        }
+        .btn-primary:hover {
+            background-color: #FFEA70;
         }
         .btn-secondary {
             background-color: #FFFFFF;
             color: #333333;
             padding: 0.75rem 1.5rem;
-            border-radius: 9999px; /* Fully rounded */
+            border-radius: 9999px;
             border: 1px solid #87CEEB;
             font-weight: bold;
+            box-shadow: 0 2px 8px rgba(135, 206, 235, 0.10);
+            transition: background 0.2s, border 0.2s;
+        }
+        .btn-secondary:hover {
+            background-color: #F0F9FF;
+            border-color: #FFD700;
         }
         .bg-primary-light {
-            background-color: #FFFBE6; /* Lighter shade of yellow for backgrounds */
+            background-color: #FFFBE6;
         }
         .bg-secondary-light {
-            background-color: #E6F7FF; /* Lighter shade of blue for backgrounds */
+            background-color: #E6F7FF;
         }
         .bg-accent-light {
-            background-color: #FCFBE6; /* Lighter shade of khaki for card backgrounds */
+            background-color: #FCFBE6;
         }
         .text-dark-gray {
             color: #333333;
         }
         .lang-en { display: block; }
         .lang-pu { display: none; }
-
-        /* Specific styles for the mockup */
         .hero-section {
-            background-image: linear-gradient(to bottom, #FFFBE6, #E6F7FF);
+            background-image: linear-gradient(120deg, #FFFBE6 0%, #E6F7FF 100%);
             padding-top: 8rem;
             padding-bottom: 8rem;
         }
-        .topic-card {
+        .topic-card, .rounded-xl {
             background-color: #FFFFFF;
-            border-radius: 0.75rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 1rem;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
             padding: 1.5rem;
             text-align: left;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             height: 100%;
+            transition: box-shadow 0.2s, transform 0.2s;
         }
-        .topic-card .icon {
+        .topic-card:hover, .rounded-xl:hover {
+            box-shadow: 0 8px 32px rgba(135, 206, 235, 0.18);
+            transform: translateY(-4px) scale(1.02);
+        }
+        .topic-card .icon, .rounded-xl .icon, .rounded-xl > div.text-4xl {
             font-size: 3rem;
             margin-bottom: 1rem;
-            color: #87CEEB; /* Sky Blue for icons */
+            color: #87CEEB;
         }
-        .topic-card h3 {
+        .topic-card h3, .rounded-xl .font-bold {
             font-size: 1.25rem;
             font-weight: bold;
             margin-bottom: 0.5rem;
         }
-        .topic-card p {
-            font-size: 0.9rem;
+        .topic-card p, .rounded-xl p {
+            font-size: 0.95rem;
             color: #666666;
+        }
+        .container {
+            max-width: 1200px;
+        }
+        main.container {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        /* Footer and crisis bar */
+        .crisis-bar {
+            background: #FF4D4F;
+            color: #fff;
+            font-weight: bold;
+            padding: 0.75rem 0;
+            text-align: center;
+            font-size: 1.1rem;
+            letter-spacing: 0.01em;
         }
     </style>
 </head>
@@ -105,15 +137,15 @@
 
             if (englishToggle && punjabiToggle) {
                 if (lang === 'en') {
-                    englishToggle.classList.add('font-bold', 'bg-yellow-400', 'text-dark-gray');
-                    englishToggle.classList.remove('bg-white', 'text-gray-500', 'border', 'border-blue-400');
-                    punjabiToggle.classList.remove('font-bold', 'bg-yellow-400', 'text-dark-gray');
-                    punjabiToggle.classList.add('bg-white', 'text-gray-500', 'border', 'border-blue-400');
+                    englishToggle.classList.add('bg-yellow-400', 'text-dark-gray', 'border-yellow-400');
+                    englishToggle.classList.remove('bg-white', 'text-blue-700', 'border-blue-400');
+                    punjabiToggle.classList.remove('bg-blue-400', 'text-white', 'border-blue-400');
+                    punjabiToggle.classList.add('bg-white', 'text-blue-700', 'border-blue-400');
                 } else {
-                    punjabiToggle.classList.add('font-bold', 'bg-yellow-400', 'text-dark-gray');
-                    punjabiToggle.classList.remove('bg-white', 'text-gray-500', 'border', 'border-blue-400');
-                    englishToggle.classList.remove('font-bold', 'bg-yellow-400', 'text-dark-gray');
-                    englishToggle.classList.add('bg-white', 'text-gray-500', 'border', 'border-blue-400');
+                    punjabiToggle.classList.add('bg-blue-400', 'text-white', 'border-blue-400');
+                    punjabiToggle.classList.remove('bg-white', 'text-blue-700', 'border-blue-400');
+                    englishToggle.classList.remove('bg-yellow-400', 'text-dark-gray', 'border-yellow-400');
+                    englishToggle.classList.add('bg-white', 'text-blue-700', 'border-blue-400');
                 }
             }
         }

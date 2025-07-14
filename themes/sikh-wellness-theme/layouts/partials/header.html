@@ -1,66 +1,63 @@
 <header class="bg-white p-4 shadow-md sticky top-0 z-50">
     <nav class="container mx-auto flex items-center justify-between flex-wrap">
-        <div class="flex items-center flex-shrink-0 text-dark-gray mr-6">
+        <div class="flex items-center flex-shrink-0 text-dark-gray">
             <img src="/khanda.svg" alt="Sikh Wellness Logo" class="h-8 w-8 mr-2">
-            <!-- <a href="/" class="font-bold text-xl tracking-tight lang-en">🙏🏽 </a> -->
-            <a href="/" class="font-bold text-xl tracking-tight lang-en">Sikh Wellness Hub</a>
-            <a href="/" class="font-bold text-xl tracking-tight lang-pu">ਸਿੱਖ ਵੈਲਨੈਸ ਹੱਬ</a>
+            <a href="/" class="font-bold text-2xl tracking-tight lang-en">Sikh Wellness Hub</a>
+            <a href="/" class="font-bold text-2xl tracking-tight lang-pu">ਸਿੱਖ ਵੈਲਨੈਸ ਹੱਬ</a>
         </div>
+        <!-- Hamburger for mobile -->
         <div class="block md:hidden">
             <button id="hamburger-menu" class="flex items-center px-3 py-2 border rounded text-dark-gray border-dark-gray hover:text-blue-600 hover:border-blue-600">
-                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-6z"/></svg>
+                <svg class="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-6z"/></svg>
             </button>
         </div>
-        <div id="mobile-menu" class="w-full block flex-grow md:flex md:items-center md:w-auto hidden">
-            <div class="md:flex md:flex-grow md:justify-end md:items-center">
-                <ul class="text-sm md:flex md:space-x-6 md:items-center md:justify-end">
-                <li><a href="/" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 lang-en">Home</a><a href="/" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 lang-pu">ਮੁੱਖ ਪੰਨਾ</a></li>
-                <li class="relative group">
-                    <button id="mental-health-topics-dropdown-button" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 focus:outline-none flex items-center">
-                        <span class="lang-en">Mental Health Topics &#9662;</span>
-                        <span class="lang-pu">ਮਾਨਸਿਕ ਸਿਹਤ ਵਿਸ਼ੇ &#9662;</span>
-                        <!-- <span class="ml-1">&#9662;</span> -->
+        <!-- Main nav and language toggle -->
+        <div id="mobile-menu" class="w-full md:flex md:items-center md:w-auto hidden md:static md:space-x-4">
+            <ul class="flex flex-col md:flex-row md:space-x-4 text-base items-center md:mb-0 mb-4">
+                <li><a href="/" class="text-dark-gray hover:text-blue-600 lang-en">Home</a><a href="/" class="text-dark-gray hover:text-blue-600 lang-pu">ਮੁੱਖ ਪੰਨਾ</a></li>
+                <li class="relative group w-full md:w-auto">
+                    <button id="mental-health-topics-dropdown-button" class="text-dark-gray hover:text-blue-600 focus:outline-none flex items-center w-full md:w-auto justify-center">
+                        <span class="lang-en">Topics</span>
+                        <span class="lang-pu">ਵਿਸ਼ੇ</span>
+                        <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
                     </button>
-                    <ul id="mental-health-topics-dropdown-menu" class="absolute hidden bg-white shadow-lg rounded-md mt-2 py-2 w-48 z-50">
+                    <ul id="mental-health-topics-dropdown-menu" class="absolute hidden bg-white shadow-lg rounded-md mt-2 py-2 w-56 z-50">
                         <li><a href="/depression" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Depression</a><a href="/depression" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਉਦਾਸੀ</a></li>
                         <li><a href="/anxiety" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Anxiety</a><a href="/anxiety" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਚਿੰਤਾ</a></li>
                         <li><a href="/stress" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Stress</a><a href="/stress" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਤਣਾਅ</a></li>
                         <li><a href="/trauma" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Trauma</a><a href="/trauma" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਸਦਮਾ</a></li>
                         <li><a href="/addiction" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Addiction</a><a href="/addiction" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਨਸ਼ਾ</a></li>
-                        <li><a href="/youth" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Youth Mental Health</a><a href="/youth" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਨੌਜਵਾਨਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</a></li>
-                        <li><a href="/elderly" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Elderly Mental Health</a><a href="/elderly" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਬਜ਼ੁਰਗਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</a></li>
-                        <li><a href="/women" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Women's Mental Health</a><a href="/women" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਔਰਤਾਂ ਦੀ ਮਾਨਸਿਕ ਸਿਹਤ</a></li>
+                        <li><a href="/youth" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Youth</a><a href="/youth" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਨੌਜਵਾਨ</a></li>
+                        <li><a href="/elderly" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Elderly</a><a href="/elderly" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਬਜ਼ੁਰਗ</a></li>
+                        <li><a href="/women" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-en">Women</a><a href="/women" class="block px-4 py-2 text-dark-gray hover:bg-gray-100 lang-pu">ਔਰਤਾਂ</a></li>
                     </ul>
                 </li>
-                <li><a href="/resources" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 lang-en">Resources</a><a href="/resources" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 lang-pu">ਸਰੋਤ</a></li>
-                <li><a href="/about" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 mr-4 lang-en">About</a><a href="/about" class="block mt-4 md:inline-block md:mt-0 text-dark-gray hover:text-blue-600 mr-4 lang-pu">ਸਾਡੇ ਬਾਰੇ</a></li>
-                <div class="flex space-x-2 text-white mt-4 md:mt-0 md:items-center">
-                    <button id="lang-toggle-en" class="btn-primary text-sm px-4 py-2">English</button>
-                    <button id="lang-toggle-pu" class="btn-secondary text-sm px-4 py-2">ਪੰਜਾਬੀ</button>
-                </li>
+                <li><a href="/resources" class="text-dark-gray hover:text-blue-600 lang-en">Resources</a><a href="/resources" class="text-dark-gray hover:text-blue-600 lang-pu">ਸਰੋਤ</a></li>
+                <li><a href="/about" class="text-dark-gray hover:text-blue-600 lang-en">About</a><a href="/about" class="text-dark-gray hover:text-blue-600 lang-pu">ਸਾਡੇ ਬਾਰੇ</a></li>
             </ul>
+            <!-- Language Toggle: Always visible -->
+            <div class="flex items-center justify-center space-x-2 pb-2 md:pb-0">
+                <button id="lang-toggle-en" class="px-4 py-1 rounded-full text-sm font-semibold border border-yellow-400 bg-yellow-400 text-dark-gray transition">EN</button>
+                <button id="lang-toggle-pu" class="px-4 py-1 rounded-full text-sm font-semibold border border-blue-400 bg-white text-blue-700 transition">ਪੰਜਾਬੀ</button>
+            </div>
         </div>
     </nav>
     <script>
-        document.getElementById('hamburger-menu').addEventListener('click', function() {
-            var mobileMenu = document.getElementById('mobile-menu');
-            if (mobileMenu.classList.contains('hidden')) {
-                mobileMenu.classList.remove('hidden');
-            } else {
-                mobileMenu.classList.add('hidden');
-            }
-        });
-
+        // Hamburger menu toggle
+        const hamburger = document.getElementById('hamburger-menu');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (hamburger && mobileMenu) {
+            hamburger.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
         // Dropdown functionality for Mental Health Topics
         const dropdownButton = document.getElementById('mental-health-topics-dropdown-button');
         const dropdownMenu = document.getElementById('mental-health-topics-dropdown-menu');
-
         if (dropdownButton && dropdownMenu) {
             dropdownButton.addEventListener('click', () => {
                 dropdownMenu.classList.toggle('hidden');
             });
-
-            // Close the dropdown if the user clicks outside of it
             window.addEventListener('click', (event) => {
                 if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
                     dropdownMenu.classList.add('hidden');
